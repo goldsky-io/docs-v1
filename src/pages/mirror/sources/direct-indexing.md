@@ -13,7 +13,7 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 
 ## Supported Chains
 
-|                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces |
+|                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces* |
 | -------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: |
 | Base Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
 | Celo           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
@@ -27,7 +27,8 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 | Arweave\*      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |
 
 - The Arweave dataset includes bundled/L2 data.
-- Additional chains, including roll-ups, can be indexed on demand. [Contact us](mailto:support@goldsky.com) to kick things off!)
+- Decoded traces are available upon request.
+- Additional chains, including roll-ups, can be indexed on demand. [Contact us](mailto:support@goldsky.com) to kick things off!
 
 ## Schema
 

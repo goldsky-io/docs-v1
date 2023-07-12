@@ -8,9 +8,8 @@ After you've followed the setup instructions in our [Getting Started guide](/) y
 For these examples we'll use the Ethereum contract for [POAP](https://poap.xyz).
 
 1. From a contract address using The Graph's CLI
-2. From Source
-3. From The Graph URL or IPFS hash
-4. Instant Subgraph Configuration
+1. From Source
+1. Instant Subgraph Configuration
 
 # From a contract address using The Graph's CLI
 

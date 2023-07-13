@@ -3,9 +3,6 @@ title: AWS S3
 description: Goldsky Mirror AWS S3 sinks
 ---
 
-{% partial file="closed-beta.md" /%}
-
-{% comment %}
 
 ## Pipeline configuration
 
@@ -35,7 +32,6 @@ Create an Elasticsearch secret with the following CLI command:
 goldsky secret create AN_AWS_S3_SECRET --type s3 --value '{
   "accessKeyId": "Type.String()",
   "secretAccessKey": "Type.String()",
+  "region": "Type.String()"
 }'
 ```
-
-{% /comment %}

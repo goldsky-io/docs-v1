@@ -23,6 +23,7 @@ Supported chains are configured at https://github.com/goldsky-io/rpc-node-proxy/
 - Arbitrum Nova (arbitrum-nova)
 - Avalanche (avalanche)
 - Base Goerli Testnet (base-goerli)
+- Base (base)
 - BNB Chain (bsc)
 - BNB Chain Chapel Testnet (chapel)
 - Ethereum Mainnet (mainnet)

@@ -43,4 +43,4 @@ To find the GraphQL query URL, run the following command:
 goldsky subgraph list base-genesis-nft-base/1.0.0
 ```
 
-**Note**: Notice how the name ends with `-base`. That was added automatically to indicate we deal with an Instant Subgraph on Base.
+**Note**: Notice how the name ends with `-base`. That was added automatically to indicate we are dealing with an Instant Subgraph on Base.

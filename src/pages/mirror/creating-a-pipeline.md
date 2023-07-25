@@ -38,7 +38,7 @@ A pipeline configuration is a JSON structure with the following top-level proper
 
 Both `sources` and `sinks` are required with a minimum of one entry each. `transforms` is optional and an empty array can be used if no transforms are needed.
 
-For details on the pipeline configuration and all available properties, please refer to the [source](/mirror/sources) and [sink](/mirror/sinksa)-specific documentation.
+For details on the pipeline configuration and all available properties, please refer to the [source](/mirror/sources) and [sink](/mirror/sinks)-specific documentation.
 
 ## Monitor a pipeline
 

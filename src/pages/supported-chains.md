@@ -36,5 +36,7 @@ Supported chains are configured at https://github.com/goldsky-io/rpc-node-proxy/
 - Optimism (optimism)
 - Polygon (matic)
 - Polygon Mumbai Testnet (mumbai)
+- Public Goods Network (publicgoods)
+- Public Goods Network Testnet (publicgoods-testnet)
 - Zora Testnet (zora-testnet)
 - Zora (zora)

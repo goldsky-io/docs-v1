@@ -80,12 +80,12 @@ const navigation = [
           { title: "Kafka", href: "/mirror/sinks/kafka" },
           { title: "Rockset", href: "/mirror/sinks/rockset" },
           { title: "AWS S3", href: "/mirror/sinks/aws-s3" },
-          { title: "Timescale", href: "/mirror/sinks/timescale" },
-          { title: "Webhooks", href: "/mirror/sinks/webhooks" },
           {
             title: "Elasticsearch",
             href: "/mirror/sinks/elasticsearch",
           },
+          { title: "Timescale", href: "/mirror/sinks/timescale" },
+          { title: "Webhooks", href: "/mirror/sinks/webhooks" },
         ],
       },
       {

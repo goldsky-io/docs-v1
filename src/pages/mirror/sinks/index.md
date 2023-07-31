@@ -11,6 +11,8 @@ Goldsky supports the following pipeline sinks:
 - [Rockset](/mirror/sinks/rockset)
 - [AWS S3](/mirror/sinks/aws-s3)
 - [Elasticsearch](/mirror/sinks/elasticsearch)
+- [Timescale](/mirror/sinks/timescale)
+- [Webhooks](/mirror/sinks/webhooks)
 
 ## Secrets
 

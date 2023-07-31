@@ -75,6 +75,7 @@ const navigation = [
         title: "Sinks",
         href: "/mirror/sinks",
         links: [
+          { title: "GraphQL", href: "/mirror/sinks/graphql" },
           { title: "PostgreSQL", href: "/mirror/sinks/postgresql" },
           { title: "Kafka", href: "/mirror/sinks/kafka" },
           { title: "Rockset", href: "/mirror/sinks/rockset" },

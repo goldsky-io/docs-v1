@@ -3,7 +3,7 @@ title: Webhooks
 description: Receive real-time HTTP POST requests to on-chain changes to your subgraphs.
 ---
 
-Power discord notifications, back-end operations, orderbooks, and more with webhooks.
+Power Discord notifications, back-end operations, orderbooks, and more with webhooks.
 
 Receive real-time HTTP POST requests to your backends whenever a subgraph indexes a new event.
 

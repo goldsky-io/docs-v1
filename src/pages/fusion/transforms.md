@@ -28,4 +28,4 @@ Below are a few examples of what is possible with Goldsky’s data transformatio
 
 ## Recipes
 
-- [NFT transfers](/solutions/nft-transfers)
+- [NFT transfers](/recipes/nft-transfers)

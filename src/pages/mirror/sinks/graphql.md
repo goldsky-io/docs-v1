@@ -1,9 +1,7 @@
 ---
-title: Goldsky GraphQL
+title: GraphQL
 description: Access all your subgraphs and Goldsky Streams in a single interface. Aggregate your data to fit your needs.
 ---
-
-{% partial file="closed-beta.md" /%}
 
 Access all your subgraphs and Goldsky Streams in a single interface. Aggregate your data to fit your needs with a flexible GraphQL syntax.
 

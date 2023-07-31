@@ -3,8 +3,9 @@ title: Sinks
 description: Goldsky Mirror sinks
 ---
 
-Goldsky supports the following pipeline sink:
+Goldsky supports the following pipeline sinks:
 
+- [GraphQL API](/mirror/sinks/graphql)
 - [PostgreSQL](/mirror/sinks/postgresql)
 - [Kafka](/mirror/sinks/kafka)
 - [Rockset](/mirror/sinks/rockset)

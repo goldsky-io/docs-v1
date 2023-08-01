@@ -13,18 +13,20 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 
 ## Supported Chains
 
-|                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces* |
-| -------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: |
-| Base Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Celo           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Ethereum       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Gnosis         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Optimism       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Polygon        |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Scroll Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Zora           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Zora Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |
-| Arweave\*      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |
+|                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces* | Raw Receipts |
+| -------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: | :----------: |
+| Base Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Celo           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Ethereum       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Gnosis         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Linea          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Linea Testnet  |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Optimism       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Polygon        |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Scroll Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Zora           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Zora Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Arweave\*      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
 
 - The Arweave dataset includes bundled/L2 data.
 - Decoded traces are available upon request.

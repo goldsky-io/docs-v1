@@ -75,6 +75,7 @@ const navigation = [
         title: "Sinks",
         href: "/mirror/sinks",
         links: [
+          { title: "GraphQL", href: "/mirror/sinks/graphql" },
           { title: "PostgreSQL", href: "/mirror/sinks/postgresql" },
           { title: "Kafka", href: "/mirror/sinks/kafka" },
           { title: "Rockset", href: "/mirror/sinks/rockset" },
@@ -83,6 +84,8 @@ const navigation = [
             title: "Elasticsearch",
             href: "/mirror/sinks/elasticsearch",
           },
+          { title: "Timescale", href: "/mirror/sinks/timescale" },
+          { title: "Webhooks", href: "/mirror/sinks/webhooks" },
         ],
       },
       {

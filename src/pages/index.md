@@ -6,6 +6,8 @@ description: Index and transform on-chain data. Query with GraphQL, SQL, and mor
 
 Goldsky provides real-time and historical access to data stored on blockchains and lets you transform, enhance, and integrate that data with real-time streams to meet your custom needs. {% .lead %}
 
+Some new text here.
+
 {% quick-links %}
 
 {% comment %}

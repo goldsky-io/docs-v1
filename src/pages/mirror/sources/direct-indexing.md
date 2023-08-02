@@ -13,7 +13,7 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 
 ## Supported Chains
 
-|                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces* | Raw Receipts |
+|                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces * | Raw Receipts |
 | -------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: | :----------: |
 | Base Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Celo           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
@@ -25,11 +25,13 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 | Scroll Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Zora           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Zora Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Arweave\*      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
+| Arweave **      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
 
-- The Arweave dataset includes bundled/L2 data.
-- Decoded traces are available upon request.
-- Additional chains, including roll-ups, can be indexed on demand. [Contact us](mailto:support@goldsky.com) to kick things off!
+\* Decoded traces are available upon request.
+
+\** The Arweave dataset includes bundled/L2 data.
+
+Additional chains, including roll-ups, can be indexed on demand. [Contact us](mailto:support@goldsky.com) to kick things off!
 
 ## Schema
 

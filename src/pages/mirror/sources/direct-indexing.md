@@ -20,7 +20,6 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 | Ethereum       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Gnosis         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Linea          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Linea Testnet  |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Optimism       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Polygon        |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Scroll Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |

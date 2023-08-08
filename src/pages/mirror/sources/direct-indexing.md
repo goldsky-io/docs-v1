@@ -27,6 +27,7 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 | Polygon        |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Scroll         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Zora           |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
+| Zora Goerli    |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
 | Arweave **      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
 
 \* Decoded traces are available upon request.

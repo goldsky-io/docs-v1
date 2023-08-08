@@ -13,22 +13,22 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 
 ## Supported Chains
 
-|                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces * | Raw Receipts |
-| -------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: | :----------: |
-| Arbitrum One   |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Base           |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Base Goerli    |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |               |      ✅      |
-| Celo           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Ethereum       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Gnosis         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Linea          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Matic          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Optimism       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Polygon        |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Scroll         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Zora           |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Zora Goerli    |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Arweave **      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
+|                      | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces * | Raw Receipts |
+| -------------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: | :----------: |
+| Arbitrum One         |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
+| Base                 |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
+| Base Goerli          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |               |      ✅      |
+| Celo                 |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Ethereum             |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Gnosis               |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Linea                |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Matic                |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Optimism             |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Polygon              |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Scroll Alpha Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Zora                 |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
+| Zora Goerli          |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
+| Arweave **           |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
 
 \* Decoded traces are available upon request.
 

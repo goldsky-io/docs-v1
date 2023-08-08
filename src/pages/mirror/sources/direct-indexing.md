@@ -15,16 +15,18 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 
 |                | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces * | Raw Receipts |
 | -------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: | :----------: |
-| Base Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Arbitrum One   |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
+| Base           |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
+| Base Goerli    |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |               |      ✅      |
 | Celo           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Ethereum       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Gnosis         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Linea          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Matic          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Optimism       |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
 | Polygon        |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Scroll Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Zora           |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Zora Testnet   |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Scroll         |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
+| Zora           |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
 | Arweave **      |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
 
 \* Decoded traces are available upon request.

@@ -38,5 +38,6 @@ Supported chains are configured at https://github.com/goldsky-io/rpc-node-proxy/
 - Polygon Mumbai Testnet (mumbai)
 - Public Goods Network (publicgoods)
 - Public Goods Network Testnet (publicgoods-testnet)
+- ZetaChain Testnet (zetachain-testnet)
 - Zora Testnet (zora-testnet)
 - Zora (zora)

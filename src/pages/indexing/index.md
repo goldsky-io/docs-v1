@@ -3,7 +3,7 @@ title: Overview
 description: Learn about Goldsky's subgraph indexing functionality.
 ---
 
-Goldsky provides the following options to index data:
+Goldsky provides the following options to deploy subgraphs:
 
 - [Instant Subgraphs](/indexing/instant-subgraphs)
 - [Shared Subgraph Indexing](/indexing/shared-subgraph-indexing)

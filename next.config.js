@@ -15,7 +15,7 @@ const nextConfig = {
       ["/bridges/elasticsearch", "/mirror/elasticsearch"],
       ["/bridges/goldsky-graphql", "/mirror/goldsky-graphql"],
       ["/bridges/timescale", "/mirror/timescale"],
-      ["/bridges/webhooks", "/mirror/webhooks"],
+      ["/bridges/webhooks", "/indexing/webhooks"],
       ["/docs/:path*", "/:path*"],
       ["/mirror", "/mirror/what-are-mirror-pipelines"],
       ["/mirror/choose-the-right-sink", "/mirror/choosing-the-right-sink"],
@@ -29,7 +29,8 @@ const nextConfig = {
       ],
       ["/mirror/rockset", "/mirror/sinks/rockset"],
       ["/mirror/timescale", "/mirror/sinks/timescale"],
-      ["/mirror/webhooks", "/mirror/sinks/webhooks"],
+      ["/mirror/webhooks", "/indexing/webhooks"],
+      ["/mirror/sinks/webhooks", "/indexing/webhooks"],
       [
         "/references/instant-subgraphs-config",
         "/references/instant-subgraphs-configuration",

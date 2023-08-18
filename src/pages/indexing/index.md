@@ -11,3 +11,5 @@ Goldsky provides the following options to index data:
 - [Direct Data Indexing](/indexing/direct-data-indexing)
 
 From top to bottom, each offers better performance and improved customizability to grow with your project's complexity.
+
+We also provide [webhooks](/indexing/webhooks) that trigger based on entity changes in your deployed subgraphs.

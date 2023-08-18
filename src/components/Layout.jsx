@@ -47,6 +47,7 @@ const navigation = [
         title: "Dedicated subgraph indexing",
         href: "/indexing/dedicated-subgraph-indexing",
       },
+      { title: "Webhooks", href: "/indexing/webhooks" },
     ],
   },
   {
@@ -85,7 +86,6 @@ const navigation = [
             href: "/mirror/sinks/elasticsearch",
           },
           { title: "Timescale", href: "/mirror/sinks/timescale" },
-          { title: "Webhooks", href: "/mirror/sinks/webhooks" },
         ],
       },
       {

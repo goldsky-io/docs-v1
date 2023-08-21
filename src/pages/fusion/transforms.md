@@ -14,7 +14,7 @@ You write transformations in a familiar SQL-like syntax. We are working on docum
 {% callout title="Transformations update in real-time" %}
 As data is added to a blockchain, each transformation is kept up-to-date with the latest block.
 
-This allows you to use your streams for transactional use cases within your applications.
+This allows you to use your pipelines for transactional use cases within your applications.
 {% /callout %}
 
 ## Example use cases
@@ -24,7 +24,7 @@ Below are a few examples of what is possible with Goldsky’s data transformatio
 - Aggregate data in real-time, without having to think about data freshness and query intervals
 - Apply complex filters without any query time overhead
 - Detect fraudulent or corrupt data as soon as it happens
-- Create streams for monitoring purposes
+- Create pipelines for monitoring purposes
 
 ## Recipes
 

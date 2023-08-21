@@ -1,13 +1,13 @@
 ---
 title: Teams and Projects
-description: Projects and Teams are features that help you collaborate with your peers on building real-time data streams.
+description: Projects and Teams are features that help you collaborate with your peers on building real-time data pipelines.
 ---
 
 {% callout type="note" title="Beta" %}
 The Projects and Teams features are in beta and free to use during this time. Let us know your feedback at @goldskyio on Twitter.
 {% /callout %}
 
-Projects and Teams are features that help you collaborate with your peers on building real-time data streams. When you log into https://app.goldsky.com, you’ll see a list of the projects you belong to in the drop-down menu on the upper left. Click this menu to switch your active project, or to create and edit projects.
+Projects and Teams are features that help you collaborate with your peers on building real-time data pipelines. When you log into https://app.goldsky.com, you’ll see a list of the projects you belong to in the drop-down menu on the upper left. Click this menu to switch your active project, or to create and edit projects.
 
 Each project consists of a group of deployed subgraphs (and soon, other types of indexed data sources) as well as a list of team members who have access to that project.
 

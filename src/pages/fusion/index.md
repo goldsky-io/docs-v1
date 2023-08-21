@@ -1,7 +1,7 @@
 ---
 title: Overview
-pageTitle: Streams Overview
-description: Do more with your blockchain data - with real-time streams.
+pageTitle: Transforms Overview
+description: Do more with your blockchain data - with real-time transforms.
 ---
 
 {% callout type="warning" title="Closed Beta" %}

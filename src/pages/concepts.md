@@ -1,9 +1,9 @@
 ---
 title: Concepts
-description: What is indexing? What are streams? How do I integrate with Goldsky?
+description: What is indexing? What are pipelines? How do I integrate with Goldsky?
 ---
 
-Learn about Goldsky concepts such as sources, streams, and sinks.
+Learn about Goldsky concepts such as sources, pipelines, and sinks.
 
 ## Sources & sinks
 
@@ -29,9 +29,9 @@ You are not limited to a single source or sink. With add-ons such as [cross-chai
   height="240"
 /%}
 
-## Streams
+## Transforms
 
-In many cases, projects have more complex data requirements than accessing (subgraph) data via for example a GraphQL API. This is where [Goldsky Streams](/fusion) comes into play.
+In many cases, projects have more complex data requirements than accessing (subgraph) data via for example a GraphQL API. This is where [Goldsky Transforms](/fusion) comes into play.
 
 To accommodate for your project’s data needs, you can define [Transforms](/fusion/transforms) as seen in the following diagrams.
 
@@ -40,19 +40,19 @@ To accommodate for your project’s data needs, you can define [Transforms](/fus
 More often than not, your project requires some sort of data transformation. You can define a single SQL transform to `GROUP BY`, `SUM`, ... data so it fits the need of your project.
 
 {% excalidraw
-  src="/images/docs/concepts/goldsky-concepts-source-stream-sink"
+  src="/images/docs/concepts/goldsky-concepts-source-transforms-sink"
   width="200"
   height="240"
 /%}
 
 ### Multiple transforms
 
-What if your application requires slightly different data than your data warehouse? Well, multiple streams to the rescue.
+What if your application requires slightly different data than your data warehouse? Well, multiple pipelines to the rescue.
 
-Individual streams in the pipeline can connect to independent sinks. The following diagram outlines how a single source can serve both an ETL-style process and a real-time use case for an application.
+Individual pipelines in the pipeline can connect to independent sinks. The following diagram outlines how a single source can serve both an ETL-style process and a real-time use case for an application.
 
 {% excalidraw
-  src="/images/docs/concepts/goldsky-concepts-source-streams-sinks"
+  src="/images/docs/concepts/goldsky-concepts-source-transforms-sinks"
   width="400"
   height="240"
 /%}

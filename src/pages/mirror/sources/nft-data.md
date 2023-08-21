@@ -5,7 +5,7 @@ description:
 
 {% partial file="closed-beta.md" /%}
 
-Our NFT Metadata dataset is an incredibly comprehensive scraped and derived metadata including:
+Our NFT Metadata dataset includes:
 
 - Image metadata
 - Royalty metadata
@@ -14,8 +14,8 @@ Our NFT Metadata dataset is an incredibly comprehensive scraped and derived meta
 - Off-chain and on-chain Bids/Sales
 - Rarity
 
-As a mirror source, you'd be able to sink it into any of our supported sinks, as well as do transformations and aggregations on the dataset.
+As a mirror source, you'd be able to sink it into any of our supported sinks, execute transformations and aggregations, as well as join it with other datasets.
 
-This dataset is in technical preview - it's in production with pilot customers, but subject to change.
+This dataset is in technical preview - it's being used in production by customers already but we are onboarding new users slowly as we scale up our infrastructure.
 
 [Email us](mailto:support@goldsky.com) if you'd like to join our technical preview program.

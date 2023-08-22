@@ -75,7 +75,7 @@ git clone https://github.com/poap-xyz/poap-subgraph.git
 Now change into that directory. From here, we'll build the subgraph from templates. Open source subgraphs have different instructions to get them to build, so check the `README.md` or look at the `package.json` for hints as to the correct build commands. Usually it's a two step process, but since POAP is deployed on multiple chains, there's one extra step at the start to generate the correct data from templates.
 
 {% callout type="warning" title="Newer graph-cli versions" %}
-The POAP repo uses an older version of The Graph's graph-cli package, and if you have a more recent version installed, edit the `subgraph.template.yaml` file and change the apiVersion value from 0.0.4 to 0.0.5
+The POAP repo uses an older version of The Graph's graph-cli package, and if you have a more recent version installed and see the error `The current version of graph-cli can't be used with mappings on apiVersion less than '0.0.5'` during codegen, edit the `subgraph.template.yaml` file and change the apiVersion value from 0.0.4 to 0.0.5
 {% /callout %}
 
 ```shell

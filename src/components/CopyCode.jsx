@@ -10,7 +10,7 @@ export function CopyCode({ codeElement }) {
       const to = setTimeout(setCopied, 1000, false);
       return () => clearTimeout(to);
     }
-  }, [copied]);
+  }, [codeElement, copied]);
 
   return (
     <button

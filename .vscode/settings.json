@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.vercel": true
+  },
+  "tailwindCSS.experimental.classRegex": ["[a-zA-Z]+Class *= *\"([^\"]+)\""],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

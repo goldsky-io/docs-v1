@@ -9,7 +9,7 @@ import { Logo, LogoWordmark } from "@/components/Logo";
 import { MobileNavigation } from "@/components/MobileNavigation";
 import { Navigation } from "@/components/Navigation";
 import { Prose } from "@/components/Prose";
-import { Search } from '@/components/Search'
+import { Search } from "@/components/Search";
 import { ThemeSelector } from "@/components/ThemeSelector";
 
 const navigation = [
@@ -140,7 +140,7 @@ function Header({ navigation }) {
         "sticky top-0 z-50 flex flex-wrap items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8",
         isScrolled
           ? "dark:bg-slate-900/95 dark:backdrop-blur dark:[@supports(backdrop-filter:blur(0))]:bg-slate-900/75"
-          : "dark:bg-transparent"
+          : "dark:bg-transparent",
       )}
     >
       <div className="mr-6 flex lg:hidden">
@@ -230,8 +230,8 @@ export function Layout({ children, title, tableOfContents }) {
     section.links.find(
       (link) =>
         link.links?.find((sublink) => sublink.href === router.pathname) ||
-        link.href === router.pathname
-    )
+        link.href === router.pathname,
+    ),
   );
   let currentSection = useTableOfContents(tableOfContents);
 
@@ -251,7 +251,7 @@ export function Layout({ children, title, tableOfContents }) {
 
       {isHomePage && <Hero />}
 
-      <div className="max-w-8xl relative mx-auto flex justify-center sm:px-2 lg:px-8 xl:px-12">
+      <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
           <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
           <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-16 pl-0.5">
@@ -334,7 +334,7 @@ export function Layout({ children, title, tableOfContents }) {
                           className={clsx(
                             isActive(section)
                               ? "text-sky-500"
-                              : "font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300"
+                              : "font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300",
                           )}
                         >
                           {section.title}

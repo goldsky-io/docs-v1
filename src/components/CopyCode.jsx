@@ -1,7 +1,7 @@
 import React from "react";
 import copy from "copy-to-clipboard";
 
-export function CopyCode({ codeElement, top, right }) {
+export function CopyCode({ codeElement }) {
   const [copied, setCopied] = React.useState(false);
 
   React.useEffect(() => {

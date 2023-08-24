@@ -10,6 +10,15 @@ if (
   typeof window !== "undefined" &&
   window.location.host === "docs.goldsky.com"
 ) {
+  var r = document.createElement('script');
+  r.src = "https://www.googletagmanager.com/gtag/js?id=G-PGSF5CGSKR";
+  r.async = true;
+  var i = document.getElementsByTagName('script')[0]
+  i.parentNode.insertBefore(r, i)
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PGSF5CGSKR');
   (window.heap = window.heap || []),
     (heap.load = function (e, t) {
       (window.heap.appid = e), (window.heap.config = t = t || {});

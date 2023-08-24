@@ -50,6 +50,7 @@ const tags = {
     selfClosing: true,
     attributes: {
       src: { type: String },
+      alt: { type: String },
       width: { type: String },
       height: { type: String },
     },

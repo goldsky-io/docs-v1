@@ -25,6 +25,7 @@ This recipe combines:
 
 {% excalidraw
   src="/images/docs/recipes/nft-transfers/goldsky-recipes-nft-transfers"
+  alt="NFT transfers"
   width="400"
   height="240"
 /%}

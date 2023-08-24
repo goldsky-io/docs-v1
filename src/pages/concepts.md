@@ -15,6 +15,7 @@ For example, a source may be your subgraph which you can access through a GraphQ
 
 {% excalidraw
   src="/images/docs/concepts/goldsky-concepts-source-sinks"
+  alt="Source and sinks"
   width="200"
   height="240"
 /%}
@@ -25,6 +26,7 @@ You are not limited to a single source or sink. With add-ons such as [cross-chai
 
 {% excalidraw
   src="/images/docs/concepts/goldsky-concepts-two-sources-one-sink"
+  alt="Sources and sink"
   width="400"
   height="240"
 /%}
@@ -41,6 +43,7 @@ More often than not, your project requires some sort of data transformation. You
 
 {% excalidraw
   src="/images/docs/concepts/goldsky-concepts-source-transforms-sink"
+  alt="Source, transforms, and sink"
   width="200"
   height="240"
 /%}
@@ -53,6 +56,7 @@ Individual pipelines in the pipeline can connect to independent sinks. The follo
 
 {% excalidraw
   src="/images/docs/concepts/goldsky-concepts-source-transforms-sinks"
+  alt="Source, transforms, and sinks"
   width="400"
   height="240"
 /%}

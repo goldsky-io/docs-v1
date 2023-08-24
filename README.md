@@ -42,6 +42,7 @@ For each diagram, we keep light and dark mode versions. To export a diagram from
    ```
    {% excalidraw
      src="/images/docs/.../goldsky-..."
+     alt="..."
      width="200"
      height="240"
    /%}

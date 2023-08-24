@@ -8,7 +8,7 @@ import "@/styles/tailwind.css";
 
 if (
   typeof window !== "undefined" &&
-  window.location.host === "docs.goldsky.com"
+  window.location.host === "docs-git-addga-goldsky.vercel.app"
 ) {
   var r = document.createElement('script');
   r.src = "https://www.googletagmanager.com/gtag/js?id=G-PGSF5CGSKR";

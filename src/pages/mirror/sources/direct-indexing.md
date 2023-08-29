@@ -13,25 +13,25 @@ With mirror pipelines, you can access to indexed on-chain data. Define them as a
 
 ## Supported Chains
 
-|                      | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces * | Raw Receipts |
-| -------------------- | :--------: | :-------------: | :------: | :----------: | :----: | :------------: | :----------: |
-| Arbitrum One         |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Base                 |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Base Goerli          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |               |      ✅      |
-| Celo                 |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Ethereum             |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Gnosis               |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Linea                |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Optimism             |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Polygon              |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Scroll Alpha Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |       ✅       |      ✅      |
-| Zora                 |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Zora Goerli          |     ✅     |       ✅        |    ✅    |              |   ✅   |               |      ✅      |
-| Arweave **           |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |      N/A       |     N/A      |
+|                      | Raw blocks | Raw transaction | Raw logs | Decoded logs | Traces | Decoded Traces \* | Raw Receipts |
+| -------------------- | :--------: | :-------------: | :------: | :----------: | :----: | :---------------: | :----------: |
+| Arbitrum One         |     ✅     |       ✅        |    ✅    |              |   ✅   |                   |      ✅      |
+| Base                 |     ✅     |       ✅        |    ✅    |              |   ✅   |                   |      ✅      |
+| Base Goerli          |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |                   |      ✅      |
+| Celo                 |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |        ✅         |      ✅      |
+| Ethereum             |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |        ✅         |      ✅      |
+| Gnosis               |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |        ✅         |      ✅      |
+| Linea                |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |        ✅         |      ✅      |
+| Optimism             |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |        ✅         |      ✅      |
+| Polygon              |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |        ✅         |      ✅      |
+| Scroll Alpha Testnet |     ✅     |       ✅        |    ✅    |      ✅      |   ✅   |        ✅         |      ✅      |
+| Zora                 |     ✅     |       ✅        |    ✅    |              |   ✅   |                   |      ✅      |
+| Zora Goerli          |     ✅     |       ✅        |    ✅    |              |   ✅   |                   |      ✅      |
+| Arweave \*\*         |     ✅     |       ✅        |   N/A    |     N/A      |  N/A   |        N/A        |     N/A      |
 
 \* Decoded traces are available upon request.
 
-\** The Arweave dataset includes bundled/L2 data.
+\*\* The Arweave dataset includes bundled/L2 data.
 
 Additional chains, including roll-ups, can be indexed on demand. [Contact us](mailto:support@goldsky.com) to kick things off!
 

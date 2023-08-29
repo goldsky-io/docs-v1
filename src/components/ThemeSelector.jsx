@@ -54,8 +54,8 @@ export function ThemeSelector(props) {
       setSelectedTheme(
         themes.find(
           (theme) =>
-            theme.value === document.documentElement.getAttribute("data-theme")
-        )
+            theme.value === document.documentElement.getAttribute("data-theme"),
+        ),
       );
     }
   }, [selectedTheme]);
@@ -90,7 +90,7 @@ export function ThemeSelector(props) {
                   "text-slate-900 dark:text-white": active && !selected,
                   "text-slate-700 dark:text-slate-400": !active && !selected,
                   "bg-slate-100 dark:bg-slate-900/40": active,
-                }
+                },
               )
             }
           >
@@ -102,7 +102,7 @@ export function ThemeSelector(props) {
                       "h-4 w-4",
                       selected
                         ? "fill-sky-400 dark:fill-sky-400"
-                        : "fill-slate-400"
+                        : "fill-slate-400",
                     )}
                   />
                 </div>

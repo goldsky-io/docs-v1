@@ -86,6 +86,7 @@ const navigation = [
             href: "/mirror/sinks/elasticsearch",
           },
           { title: "Timescale", href: "/mirror/sinks/timescale" },
+          { title: "ClickHouse", href: "/mirror/sinks/clickhouse" },
         ],
       },
       {

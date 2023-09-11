@@ -15,19 +15,15 @@ Below, we'll explain each section of the JSON structure, and provide an example 
 
 ## Sources
 
-The `sources` array contains one or many source objects, each with the following properties:
+The `sources` array contains one or more source objects. There are currently two supported source types:
+- Subgraph Entities
+- Datasets
 
-- `type`: The type of the source. This could be `subgraphEntity`, `file`, or `kafka`.
-- `deployments`: An array of objects, each containing a deployment `id`. This is only required for sources of type `subgraphEntity`.
-- `namespace`: The namespace for the source. This could be `polygon`, `hashflow_cross_chain`, `matic`, or `mainnet`.
-- `entity`: An object containing the `name` of the entity. This is only required for sources of type `subgraphEntity`.
-- `name`: The name of the source. This is required for sources of type `file`, and `kafka`.
-- `format`: The format of the file. This is required for sources of type `file`.
-- `tableDefinitionPath`: The path of the table definition. This is required for sources of type `file`.
-- `path`: The path of the file. This is required for sources of type `file`.
-- `topic`: The topic to consume from. This is required for sources of type `kafka`.
+### Subgraph Entities
 
-### Source Example
+This lets you define your own subgraphs as a pipeline source.
+
+**Example**
 
 ```json
 {
@@ -43,6 +39,22 @@ The `sources` array contains one or many source objects, each with the following
   }
 }
 ```
+
+### Datasets
+
+Datasets let you define [Direct Indexing](/mirror/sources/direct-indexing) sources. This is a powerful and efficient way to deal with blocks, transactions, logs, and decoded logs & traces.
+
+**Example**
+
+```json
+{
+  "type": "dataset",
+  "name": "mainnet.decoded_logs",
+  "version": "1.0.0",
+}
+```
+
+The `name` property is based on the following pattern: `<chain>.<decoded|raw>_<blocks|transactions|logs|traces>`. Please refer to [supported chains](/mirror/sources/direct-indexing#supported-chains) for an overview of what data is available for individual chains.
 
 ## Transforms
 

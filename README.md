@@ -2,6 +2,14 @@
 
 This package contains the source code for [docs.goldsky.com](https://docs.goldsky.com/). For each pull request, there is a preview deployment available. When a pull request is merged into the main branch, the changes get deployed to [docs.goldsky.com](https://docs.goldsky.com/).
 
+## To Preview
+
+1. Clone the repository to your local machine using `git clone https://github.com/goldsky/docs.git`
+2. Navigate to the cloned repository using `cd docs`
+3. Install the necessary dependencies using `npm install`
+4. Start the local development server using `npm run dev`
+5. Open your web browser and navigate to `http://localhost:3000` to preview the documentation.
+
 ## Diagrams
 
 Diagrams are part of a single [Excalidraw](https://excalidraw.com/) canvas.

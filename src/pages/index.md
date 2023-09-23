@@ -33,7 +33,7 @@ To get started with Goldsky:
 1. Create an API key on the [Settings page](https://app.goldsky.com/dashboard/settings).
 1. Install the Goldsky CLI:
    ```shell
-   npm install -g @goldskycom/cli
+   curl -fsSL https://cli.goldsky.com/install | bash
    ```
 1. Log in with the API key created earlier:
    ```shell

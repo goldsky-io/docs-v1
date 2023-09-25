@@ -17,6 +17,7 @@ const nextConfig = {
       ["/bridges/timescale", "/mirror/timescale"],
       ["/bridges/webhooks", "/indexing/webhooks"],
       ["/docs/:path*", "/:path*"],
+      ["/indexing/direct-data-indexing", "/mirror"],
       ["/mirror", "/mirror/what-are-mirror-pipelines"],
       ["/mirror/choose-the-right-sink", "/mirror/choosing-the-right-sink"],
       ["/mirror/create-a-pipeline", "/mirror/creating-a-pipeline"],

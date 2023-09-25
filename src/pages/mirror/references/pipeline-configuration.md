@@ -50,8 +50,8 @@ Datasets let you define [Direct Indexing](/mirror/sources/direct-indexing) sourc
 ```json
 {
   "type": "dataset",
-  "name": "mainnet.decoded_logs",
-  "version": "1.0.0"
+  "name": "ethereum.decoded_logs",
+  "version": "1.0.0",
 }
 ```
 

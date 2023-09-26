@@ -3,7 +3,7 @@ title: Instant Subgraphs Configuration
 description: Goldsky's configuration file for instant subgraphs.
 ---
 
-This configuration file is required for [Instant Subgraphs](/indexing/instant-subgraphs).
+This configuration file is required for [Instant Subgraphs](/subgraphs/instant-subgraphs).
 
 ## Configuration
 

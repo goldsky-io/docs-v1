@@ -49,4 +49,4 @@ Deploying Subgraph:
 Deployed subgraph API: https://api.goldsky.com/api/public/project_cl6whoglq00050iyl9jnqc0o3/subgraphs/goldsky-mainnet/v1.0.0/gn
 ```
 
-That's it! You can now query your subgraph at the provided link(s) or watch the indexing progress and other information at [app.goldsky.com/dashboard/subgraphs](https://app.goldsky.com/dashboard/subgraphs).
+That's it! You can now query your subgraph at the provided link(s) or watch the subgraph indexing progress and other information at [app.goldsky.com/dashboard/subgraphs](https://app.goldsky.com/dashboard/subgraphs).

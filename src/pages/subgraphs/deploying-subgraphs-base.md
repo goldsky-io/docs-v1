@@ -30,12 +30,12 @@ For this example we'll use the [BaseGenesisNFT](https://basescan.org/address/0x1
      ]
    }
    ```
-1. Start indexing with:
+1. Start indexing subgraphs with:
    ```shell
    goldsky subgraph deploy base-genesis-nft/1.0.0 --from-abi ./base-genesis-nft.json
    ```
 
-You can [learn more about Instant Subgraphs](<(/indexing/instant-subgraphs)>) and how to configure them in our docs.
+You can [learn more about Instant Subgraphs](/subgraphs/instant-subgraphs) and how to configure them in our docs.
 
 To find the GraphQL query URL, run the following command:
 

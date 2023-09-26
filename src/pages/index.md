@@ -1,7 +1,7 @@
 ---
 title: Getting started
 pageTitle: Goldsky - Getting Started
-description: Index and transform on-chain data. Query with GraphQL, SQL, and more.
+description: Index subgraphs and transform on-chain data. Query with GraphQL, SQL, and more.
 ---
 
 Goldsky provides real-time and historical access to data stored on blockchains and lets you transform, enhance, and integrate that data with real-time pipelines to meet your custom needs. {% .lead %}
@@ -12,7 +12,7 @@ Goldsky provides real-time and historical access to data stored on blockchains a
 TODO: Determine which icons to use
 {% /comment %}
 
-{% quick-link title="Index data" icon="installation" href="/indexing" description="Learn how to index your blockchain data." /%}
+{% quick-link title="Indexing subgraphs" icon="installation" href="/subgraphs" description="Learn how to index your blockchain data." /%}
 
 {% quick-link title="Sync data" icon="theming" href="/mirror" description="Learn how to use Mirror to integrate data into your project." /%}
 

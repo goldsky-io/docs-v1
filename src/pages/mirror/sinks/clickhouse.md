@@ -3,8 +3,6 @@ title: ClickHouse
 description: Goldsky Mirror ClickHouse sink
 ---
 
-{% partial file="closed-beta.md" /%}
-
 ## Pipeline configuration
 
 ```json

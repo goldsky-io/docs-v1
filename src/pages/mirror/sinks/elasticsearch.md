@@ -3,8 +3,6 @@ title: Elasticsearch
 description: Import Goldsky data into Elasticsearch for further processing and querying.
 ---
 
-{% partial file="closed-beta.md" /%}
-
 Give your users blazing-fast auto-complete suggestions, full-text fuzzy searches, and scored recommendations based off of on-chain data.
 
 Elasticsearch is the leading search datastore, used for a wide variety of usecase for billions of datapoints a day, including search, roll-up aggregations, and ultra-fast lookups on text data.

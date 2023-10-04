@@ -23,13 +23,13 @@ const navigation = [
       { title: "Supported Chains", href: "/supported-chains" },
     ],
   },
-  {
-    title: "Recipes",
-    links: [
-      { title: "Overview", href: "/recipes" },
-      { title: "NFT transfers", href: "/recipes/nft-transfers" },
-    ],
-  },
+  // {
+  //   title: "Recipes",
+  //   links: [
+  //     { title: "Overview", href: "/recipes" },
+  //     { title: "NFT transfers", href: "/recipes/nft-transfers" },
+  //   ],
+  // },
   {
     title: "Index",
     links: [
@@ -99,14 +99,6 @@ const navigation = [
           },
         ],
       },
-    ],
-  },
-  {
-    title: "Fusion",
-    links: [
-      { title: "Overview", href: "/fusion" },
-      { title: "Cross-chain subgraphs", href: "/fusion/cross-chain-subgraphs" },
-      { title: "Transforms", href: "/fusion/transforms" },
     ],
   },
   {

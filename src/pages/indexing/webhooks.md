@@ -7,7 +7,7 @@ Power Discord notifications, back-end operations, orderbooks, and more with webh
 
 Receive real-time HTTP POST requests to your backends whenever a subgraph indexes a new event.
 
-Every project has webhooks enabled by default.
+Every project has webhooks enabled by default for free.
 
 # Speedrun: X2Y2 Trades Webhook
 

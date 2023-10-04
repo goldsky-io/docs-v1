@@ -10,11 +10,11 @@ When you need improved customizability and performance, Goldsky offers Dedicated
 **Customized indexing**
 
 - support for private chains
-- optimize for specific RPC methods based on subgraph to improve indexing speed
+- custom RPC layer optimizations methods based on subgraph needs to improve indexing speed
 
 **Customized querying**
 
 - enable caching with custom rules
-- indexing database to optimize for specific query patterns
+- custom database optimizations to speed up specific query patterns, bringing expensive queries down from seconds to milliseconds
 
 To launch a dedicated indexer, please contact us via email at [support@goldsky.com](mailto:support@goldsky.com) to get started.

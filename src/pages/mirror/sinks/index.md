@@ -5,13 +5,11 @@ description: Goldsky Mirror sinks
 
 Goldsky supports the following pipeline sinks:
 
-- [GraphQL API](/mirror/sinks/graphql)
 - [PostgreSQL](/mirror/sinks/postgresql)
 - [Kafka](/mirror/sinks/kafka)
 - [Rockset](/mirror/sinks/rockset)
 - [AWS S3](/mirror/sinks/aws-s3)
 - [Elasticsearch](/mirror/sinks/elasticsearch)
-- [Timescale](/mirror/sinks/timescale)
 - [ClickHouse](/mirror/sinks/clickhouse)
 
 ## Secrets

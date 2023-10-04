@@ -1,3 +1,8 @@
+---
+title: OpenSea Seaport Source
+description: Goldsky Mirror subgraph source - OpenSea Seaport
+---
+
 #### OpenSea Seaport
 
 - collection

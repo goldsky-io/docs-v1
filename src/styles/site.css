@@ -2,3 +2,11 @@
 @import "./fonts.css";
 @import "./docsearch.css";
 @import "./prism.css";
+
+table tr:has(.table-header) {
+  background-color: var(--tw-prose-td-borders);
+}
+
+table td:has(.table-header) {
+  padding: 0.5rem;
+}

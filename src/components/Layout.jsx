@@ -11,6 +11,7 @@ import { Navigation } from "@/components/Navigation";
 import { Prose } from "@/components/Prose";
 import { Search } from "@/components/Search";
 import { ThemeSelector } from "@/components/ThemeSelector";
+import { HowIsIt } from "./HowIsIt";
 
 const navigation = [
   {
@@ -31,23 +32,23 @@ const navigation = [
   //   ],
   // },
   {
-    title: "Index",
+    title: "Subgraphs",
     links: [
-      { title: "Overview", href: "/indexing" },
+      { title: "Overview", href: "/subgraphs" },
       {
         title: "Deploying Subgraphs and Tagging",
-        href: "/indexing/deploying-subgraphs",
+        href: "/subgraphs/deploying-subgraphs",
       },
-      { title: "Instant Subgraphs", href: "/indexing/instant-subgraphs" },
+      { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
       {
-        title: "Shared subgraph indexing",
-        href: "/indexing/shared-subgraph-indexing",
+        title: "Shared subgraphs",
+        href: "/subgraphs/shared-subgraphs",
       },
       {
-        title: "Dedicated subgraph indexing",
-        href: "/indexing/dedicated-subgraph-indexing",
+        title: "Dedicated subgraphs",
+        href: "/subgraphs/dedicated-subgraphs",
       },
-      { title: "Webhooks", href: "/indexing/webhooks" },
+      { title: "Webhooks", href: "/subgraphs/webhooks" },
     ],
   },
   {
@@ -307,6 +308,7 @@ export function Layout({ children, title, tableOfContents }) {
               </div>
             )}
           </dl>
+          <HowIsIt />
         </div>
         <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
           <nav aria-labelledby="on-this-page-title" className="w-56">

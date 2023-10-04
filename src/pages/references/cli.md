@@ -8,12 +8,12 @@ description: Goldsky's command line interface reference
 This file is generated. Do not modify.
 
 To update the file:
+
 1. Navigate to the goldsky-io/goldsky monorepo
 2. cd packages/cli && pnpm docs:reference:generate
 3. Use the cli-reference.md content
+
 {% /comment %}
-
-
 
 ```
 goldsky <cmd> args
@@ -799,4 +799,3 @@ Options:
   -h, --help   Show help                                               [boolean]
 
 ```
-

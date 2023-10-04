@@ -96,7 +96,7 @@ For a more detailed description of how to do this you can follow our [guide](/mi
 
 # Instant Subgraph Configuration
 
-For a detailed guide on using our Instant Subgraph Configurations, check out [this guide](/indexing/instant-subgraphs).
+For a detailed guide on using our Instant Subgraph Configurations, check out [this guide](/subgraphs/instant-subgraphs).
 
 # Tags
 

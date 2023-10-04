@@ -16,6 +16,7 @@ Below, we'll explain each section of the JSON structure, and provide an example 
 ## Sources
 
 The `sources` array contains one or more source objects. There are currently two supported source types:
+
 - Subgraph Entities
 - Datasets
 
@@ -49,7 +50,7 @@ Datasets let you define [Direct Indexing](/mirror/sources/direct-indexing) sourc
 ```json
 {
   "type": "dataset",
-  "name": "mainnet.decoded_logs",
+  "name": "ethereum.decoded_logs",
   "version": "1.0.0",
 }
 ```

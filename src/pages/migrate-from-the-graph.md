@@ -51,4 +51,4 @@ Alternatively, navigate to [app.goldsky.com](https://app.goldsky.com) to see you
 
 To ensure industry-leading reliability and latency, we can provision independent infrastructure for individual enterprise customers.
 
-To learn more, please see [Dedicated subgraph indexing](/indexing/dedicated-subgraph-indexing).
+To learn more, please see [Dedicated subgraphs](/subgraphs/dedicated-subgraphs).

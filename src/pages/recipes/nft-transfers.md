@@ -19,7 +19,7 @@ Anyone who wants to process NFT transfers in real-time. You could use this recip
 
 This recipe combines:
 
-- Source: [Direct data indexing](/indexing/direct-data-indexing)
+- Source: [Direct Indexing](/mirror/sources/direct-indexing)
 - Fusion: [Transforms](/fusion/transforms)
 - Mirror: PostgreSQL, [Timescale](/mirror/timescale), [Goldsky GraphQL](/mirror/goldsky-graphql)
 

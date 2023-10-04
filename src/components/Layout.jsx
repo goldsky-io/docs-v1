@@ -32,23 +32,23 @@ const navigation = [
     ],
   },
   {
-    title: "Index",
+    title: "Subgraphs",
     links: [
-      { title: "Overview", href: "/indexing" },
+      { title: "Overview", href: "/subgraphs" },
       {
         title: "Deploying Subgraphs and Tagging",
-        href: "/indexing/deploying-subgraphs",
+        href: "/subgraphs/deploying-subgraphs",
       },
-      { title: "Instant Subgraphs", href: "/indexing/instant-subgraphs" },
+      { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
       {
-        title: "Shared subgraph indexing",
-        href: "/indexing/shared-subgraph-indexing",
+        title: "Shared subgraphs",
+        href: "/subgraphs/shared-subgraphs",
       },
       {
-        title: "Dedicated subgraph indexing",
-        href: "/indexing/dedicated-subgraph-indexing",
+        title: "Dedicated subgraphs",
+        href: "/subgraphs/dedicated-subgraphs",
       },
-      { title: "Webhooks", href: "/indexing/webhooks" },
+      { title: "Webhooks", href: "/subgraphs/webhooks" },
     ],
   },
   {

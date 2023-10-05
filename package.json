@@ -10,6 +10,7 @@
     "prettier:check": "prettier --plugin-search-dir . --check .",
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "next lint"

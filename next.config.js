@@ -2,6 +2,10 @@ const withMarkdoc = require("@markdoc/next.js");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    loader: 'akamai',
+    path: '/',
+  },
   reactStrictMode: true,
   pageExtensions: ["js", "jsx", "md"],
   swcMinify: true,

@@ -1,9 +1,9 @@
-source: src
+source: src/pages/
 paths:
   uploads: uploads
 collections_config:
   pages:
-    path: pages/
+    path: /
     output: true
     url: '[relative_base_path]/[slug]'
     name: Pages

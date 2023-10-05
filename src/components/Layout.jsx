@@ -59,7 +59,7 @@ const navigation = [
         href: "/mirror/what-are-mirror-pipelines",
       },
       {
-        title: "Guide: Bored Ape NFT Transfers",
+        title: "Guide: Export Bored Ape Contract Events",
         href: "/mirror/guide-bored-ape",
       },
       { title: "Creating a pipeline", href: "/mirror/create-a-pipeline" },

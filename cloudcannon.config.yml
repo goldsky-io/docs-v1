@@ -5,9 +5,14 @@ collections_config:
   pages:
     path: pages/
     output: true
-    url: /
+    url: /[full_slug]
+    name: Pages
+    description: markdown pages
     icon: notes
     _editables: {}
+    _enabled_editors:
+      - visual
+      - content
     _inputs: {}
     _select_data: {}
     _structures: {}

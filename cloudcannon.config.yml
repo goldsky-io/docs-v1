@@ -3,7 +3,7 @@ paths:
   uploads: uploads
 collections_config:
   pages:
-    path: src/pages/
+    path: pages/
     output: true
     url: /
     icon: notes

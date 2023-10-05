@@ -36,11 +36,6 @@ const navigation = [
     links: [
       { title: "Overview", href: "/subgraphs" },
       {
-        title: "Deploying Subgraphs and Tagging",
-        href: "/subgraphs/deploying-subgraphs",
-      },
-      { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
-      {
         title: "Shared subgraphs",
         href: "/subgraphs/shared-subgraphs",
       },
@@ -48,6 +43,11 @@ const navigation = [
         title: "Dedicated subgraphs",
         href: "/subgraphs/dedicated-subgraphs",
       },
+      {
+        title: "Deploying Subgraphs and Tagging",
+        href: "/subgraphs/deploying-subgraphs",
+      },
+      { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
       { title: "Webhooks", href: "/subgraphs/webhooks" },
     ],
   },
@@ -77,7 +77,6 @@ const navigation = [
         title: "Sinks",
         href: "/mirror/sinks",
         links: [
-          { title: "GraphQL", href: "/mirror/sinks/graphql" },
           { title: "PostgreSQL", href: "/mirror/sinks/postgresql" },
           { title: "Kafka", href: "/mirror/sinks/kafka" },
           { title: "Rockset", href: "/mirror/sinks/rockset" },

@@ -5,7 +5,7 @@ collections_config:
   pages:
     path: pages/
     output: true
-    url: /[full_slug]
+    url: '[relative_base_path]/[slug]'
     name: Pages
     description: markdown pages
     icon: notes

@@ -58,10 +58,13 @@ const navigation = [
         title: "What are mirror pipelines?",
         href: "/mirror/what-are-mirror-pipelines",
       },
-      { title: "Quick Start", href: "/mirror/quick-start" },
+      {
+        title: "Guide: Bored Ape NFT Transfers",
+        href: "/mirror/guide-bored-ape",
+      },
       { title: "Creating a pipeline", href: "/mirror/create-a-pipeline" },
       {
-        title: "Choose the right sink",
+        title: "Choosing the right sink",
         href: "/mirror/choosing-the-right-sink",
       },
       {

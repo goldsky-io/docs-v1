@@ -1,11 +1,11 @@
-source: src/pages/
+source: src/
 paths:
   uploads: uploads
 collections_config:
   pages:
-    path: /
+    path: /pages
     output: true
-    url: '[relative_base_path]/[slug]'
+    url: '[base_path]/[slug]'
     name: Pages
     description: markdown pages
     icon: notes

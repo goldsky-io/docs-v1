@@ -22,6 +22,7 @@ const navigation = [
       { title: "Migrate from The Graph", href: "/migrate-from-the-graph" },
       { title: "Teams and Projects", href: "/teams-and-projects" },
       { title: "Supported Chains", href: "/supported-chains" },
+      { title: "Pricing", href: "/pricing" },
     ],
   },
   {

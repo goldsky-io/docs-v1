@@ -30,5 +30,6 @@ module.exports = {
       },
     },
   },
+  safelist: ["m-0"],
   plugins: [require("@tailwindcss/typography")],
 };

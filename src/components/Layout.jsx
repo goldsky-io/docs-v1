@@ -62,7 +62,7 @@ const navigation = [
         title: "Guide: Export Bored Ape Contract Events",
         href: "/mirror/guide-bored-ape",
       },
-      { title: "Creating a pipeline", href: "/mirror/create-a-pipeline" },
+      { title: "Creating a pipeline", href: "/mirror/creating-a-pipeline" },
       {
         title: "Choosing the right sink",
         href: "/mirror/choosing-the-right-sink",

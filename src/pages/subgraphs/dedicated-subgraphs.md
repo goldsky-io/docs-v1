@@ -1,18 +1,18 @@
 ---
-title: Dedicated Subgraph Indexing
+title: Dedicated Subgraphs
 description: Index your subgraphs - even on private chains - on dedicated infrastructure for improved customizability and performance.
 ---
 
-The quickest way to get started with Goldsky Indexing is with [Shared Subgraph Indexing](/indexing/shared-subgraphs).
+When you make a new subgraph on Goldsky, by default it's hosted on our highly resilient [Shared Subgraph Platform](/indexing/shared-subgraphs).
 
-When you need improved customizability and performance, Goldsky offers Dedicated Subgraph Indexing. As the name suggests, this is a dedicated environment for you and you only, allowing for customization and optimization at both the indexing and querying layers.
+When you need improved customizability and performance, Goldsky offers Dedicated Subgraph Indexing. This is a dedicated environment for you and you only, allowing for customization and optimization at both the indexing and querying layers.
 
-**Customized indexing**
+**Indexing enhancements**
 
 - support for private chains
 - custom RPC layer optimizations methods based on subgraph needs to improve indexing speed
 
-**Customized querying**
+**Querying Enhancements**
 
 - enable caching with custom rules
 - custom database optimizations to speed up specific query patterns, bringing expensive queries down from seconds to milliseconds

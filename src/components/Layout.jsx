@@ -25,22 +25,17 @@ const navigation = [
       { title: "Pricing", href: "/pricing" },
     ],
   },
-  {
-    title: "Recipes",
-    links: [
-      { title: "Overview", href: "/recipes" },
-      { title: "NFT transfers", href: "/recipes/nft-transfers" },
-    ],
-  },
+  // {
+  //   title: "Recipes",
+  //   links: [
+  //     { title: "Overview", href: "/recipes" },
+  //     { title: "NFT transfers", href: "/recipes/nft-transfers" },
+  //   ],
+  // },
   {
     title: "Subgraphs",
     links: [
       { title: "Overview", href: "/subgraphs" },
-      {
-        title: "Deploying Subgraphs and Tagging",
-        href: "/subgraphs/deploying-subgraphs",
-      },
-      { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
       {
         title: "Shared subgraphs",
         href: "/subgraphs/shared-subgraphs",
@@ -49,6 +44,11 @@ const navigation = [
         title: "Dedicated subgraphs",
         href: "/subgraphs/dedicated-subgraphs",
       },
+      {
+        title: "Deploying Subgraphs and Tagging",
+        href: "/subgraphs/deploying-subgraphs",
+      },
+      { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
       { title: "Webhooks", href: "/subgraphs/webhooks" },
     ],
   },
@@ -59,10 +59,13 @@ const navigation = [
         title: "What are mirror pipelines?",
         href: "/mirror/what-are-mirror-pipelines",
       },
-      { title: "Quick Start", href: "/mirror/quick-start" },
-      { title: "Creating a pipeline", href: "/mirror/create-a-pipeline" },
       {
-        title: "Choose the right sink",
+        title: "Guide: Export Bored Ape Contract Events",
+        href: "/mirror/guide-bored-ape",
+      },
+      { title: "Creating a pipeline", href: "/mirror/creating-a-pipeline" },
+      {
+        title: "Choosing the right sink",
         href: "/mirror/choosing-the-right-sink",
       },
       {
@@ -78,7 +81,6 @@ const navigation = [
         title: "Sinks",
         href: "/mirror/sinks",
         links: [
-          { title: "GraphQL", href: "/mirror/sinks/graphql" },
           { title: "PostgreSQL", href: "/mirror/sinks/postgresql" },
           { title: "Kafka", href: "/mirror/sinks/kafka" },
           { title: "Rockset", href: "/mirror/sinks/rockset" },
@@ -101,14 +103,6 @@ const navigation = [
           },
         ],
       },
-    ],
-  },
-  {
-    title: "Fusion",
-    links: [
-      { title: "Overview", href: "/fusion" },
-      { title: "Cross-chain subgraphs", href: "/fusion/cross-chain-subgraphs" },
-      { title: "Transforms", href: "/fusion/transforms" },
     ],
   },
   {

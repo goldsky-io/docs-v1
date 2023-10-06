@@ -3,8 +3,6 @@ title: Rockset
 description: Import Goldsky data into Rockset for further processing and querying.
 ---
 
-{% partial file="closed-beta.md" /%}
-
 ## Overview
 
 Rockset is a real-time analytical database that allows you to query data in real-time, without having to worry about the underlying infrastructure. Rockset can easily scale to terabytes of data - and it's easy to use through REST APIs or SQL.

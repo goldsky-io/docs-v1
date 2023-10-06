@@ -5,7 +5,7 @@ description: Write SQL to transform your data in real-time. Joins, aggregations,
 
 {% partial file="closed-beta.md" /%}
 
-At the core, Goldsky is powered by an extreme low-latency real-time streaming engine called Fusion. With Transforms, you get direct access to that engine to execute SQL transformations.
+At the core, Goldsky is powered by an extreme low-latency real-time streaming engine called Mirror. With Transforms, you get direct access to that engine to execute SQL transformations.
 
 Data transformations are a powerful way to convert raw blockchain data into data insights that are valuable to your project.
 

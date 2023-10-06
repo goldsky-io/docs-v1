@@ -4,7 +4,16 @@ pageTitle: Goldsky - Getting Started
 description: Index subgraphs and transform on-chain data. Query with GraphQL, SQL, and more.
 ---
 
-Goldsky provides real-time and historical access to data stored on blockchains and lets you transform, enhance, and integrate that data with real-time pipelines to meet your custom needs. {% .lead %}
+Goldsky is foundational data infrastructure for applications that need real-time blockchain data, right in their own infrastructure.
+
+Goldsky, in a nutshell, provides:
+
+**Subgraphs**: Enterprise-grade Subgraph indexing with add-ons.  
+**Mirror**: Reorg-aware and strongly consistent ETL pipelines that push data to your infrastructure directly.
+
+Subgraphs and mirror can be used together or separately. Mirror can use Goldsky hosted subgraphs as a data source, allowing you to get your data into our supported sinks.
+
+{% .lead %}
 
 {% quick-links %}
 

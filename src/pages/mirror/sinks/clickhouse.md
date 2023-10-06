@@ -3,9 +3,9 @@ title: ClickHouse
 description: Goldsky Mirror ClickHouse sink
 ---
 
-{% partial file="closed-beta.md" /%}
-
 [ReplacingMergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/replacingmergetree) engine is used for all sink tables by default.
+
+This allows us to handle blockchain reorganizations natively while providing high insert speeds.
 
 When `appendOnlyMode` is `true` (default), the sink behaves the following way:
 

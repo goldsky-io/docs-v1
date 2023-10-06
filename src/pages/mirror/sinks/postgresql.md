@@ -3,8 +3,6 @@ title: PostgreSQL
 description: Goldsky Mirror PostgreSQL sinks
 ---
 
-{% partial file="closed-beta.md" /%}
-
 ## Pipeline configuration
 
 ```json

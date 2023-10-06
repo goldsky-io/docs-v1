@@ -5,7 +5,9 @@ description: Learn what Mirror pipelines are and how you can create them.
 
 A Mirror pipeline instructs Goldsky where to take data from (**sources**), how to _optionally_ process that data (**transforms**), and where to persist the results (**sinks**).
 
-Behind the scenes, pipelines do a lot more than transferring data from sources to sinks. Among other features, each pipeline:
+Teams use mirror to replicate real-time blockchain data to their datastore of choice, allowing them to build unique and complex experiences for their user.
+
+Pipelines can do a lot more than transferring data from sources to sinks. Among other features, each pipeline:
 
 - is reorg aware and updates your datastores with the final result
 - runs backfills & data live streaming fully managed by Goldsky so you can focus on your business

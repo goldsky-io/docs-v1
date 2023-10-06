@@ -1,5 +1,5 @@
 ---
-title: Quick Start
+title: "Guide: Bored Ape Contract -> NeonDB"
 description: Get started with Mirror pipelines.
 ---
 

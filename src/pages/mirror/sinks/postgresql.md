@@ -28,11 +28,12 @@ Create a PostgreSQL secret with the following CLI command:
 
 ```shell
 goldsky secret create A_POSTGRESQL_SECRET --type jdbc --value '{
+  "type": "jdbc",
   "protocol": "postgresql",
-  "host": "Type.String()",
-  "port": "Type.Optional(Type.Integer())",
-  "databaseName": "Type.String()",
-  "user": "Type.String()",
-  "password": "Type.String()",
+  "host": "blah.host.com",
+  "port": 5432,
+  "databaseName": "myDatabase",
+  "user": "myUser",
+  "password": "myPassword"
 }'
 ```

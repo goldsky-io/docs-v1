@@ -10,4 +10,4 @@ The platform is fully autoscaling, with a re-engineered RPC and storage layer, a
 - Optimized RPC multi-provider layer with a global cache that uses a combination of dedicated and commercial RPC APIs for uptime
 - I/O optimized database with under 1ms average commit times
 
-If you prefer a completely isolated and dedicated infrastructure, please review [Dedicated Subgraph Indexing](/indexing/dedicated-subgraph-indexing).
+If you prefer a completely isolated and dedicated infrastructure, please review [Dedicated Subgraph Indexing](/indexing/dedicated-subgraphs).

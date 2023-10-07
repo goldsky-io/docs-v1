@@ -3,6 +3,10 @@ title: PostgreSQL
 description: Goldsky Mirror PostgreSQL sinks
 ---
 
+PostgreSQL is a powerful, open source object-relational database system used for OLTP workloads.
+
+Mirror supports PostgreSQL as a sink, allowing you to write data directly into PostgreSQL. This provides a robust and flexible solution for both mid-sized analytical workloads and high performance REST and GraphQL APIs.
+
 ## Pipeline configuration
 
 ```json
@@ -37,3 +41,5 @@ goldsky secret create A_POSTGRESQL_SECRET --type jdbc --value '{
   "password": "myPassword"
 }'
 ```
+
+##

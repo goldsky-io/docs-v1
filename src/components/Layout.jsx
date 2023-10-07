@@ -18,11 +18,10 @@ const navigation = [
     title: "Introduction",
     links: [
       { title: "Getting started", href: "/" },
-      { title: "Concepts", href: "/concepts" },
+      { title: "Pricing", href: "/pricing" },
       { title: "Migrate from The Graph", href: "/migrate-from-the-graph" },
       { title: "Teams and Projects", href: "/teams-and-projects" },
       { title: "Supported Chains", href: "/supported-chains" },
-      { title: "Pricing", href: "/pricing" },
     ],
   },
   // {

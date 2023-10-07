@@ -30,7 +30,7 @@ Create a PostgreSQL secret with the following CLI command:
 goldsky secret create A_POSTGRESQL_SECRET --type jdbc --value '{
   "type": "jdbc",
   "protocol": "postgresql",
-  "host": "blah.host.com",
+  "host": "db.host.com",
   "port": 5432,
   "databaseName": "myDatabase",
   "user": "myUser",

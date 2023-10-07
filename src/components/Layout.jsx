@@ -101,6 +101,10 @@ const navigation = [
             title: "Pipeline Configuration",
             href: "/mirror/references/pipeline-configuration",
           },
+          {
+            title: "On-chain Data Schemas",
+            href: "/mirror/references/indexed-on-chain-data-schemas",
+          },
         ],
       },
     ],

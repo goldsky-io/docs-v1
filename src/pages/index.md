@@ -21,14 +21,13 @@ Subgraphs and mirror can be used together or separately. Mirror can use Goldsky 
 TODO: Determine which icons to use
 {% /comment %}
 
-{% quick-link title="Indexing subgraphs" icon="installation" href="/subgraphs" description="Learn how to index your blockchain data." /%}
+{% quick-link title="Indexing subgraphs" icon="installation" href="/subgraphs" description="Get started with Subgraphs" /%}
 
-{% quick-link title="Sync data" icon="theming" href="/mirror" description="Learn how to use Mirror to integrate data into your project." /%}
+{% quick-link title="Migrate from The Graph" icon="plugins" href="/migrate-from-the-graph" description="Migrate your subgraphs from The Graph and host them on Goldsky." /%}
 
-{% quick-link title="Advanced data pipelines" icon="presets" href="/fusion" description="Learn how to transform your data in real-time." /%}
+{% quick-link title="Sync data" icon="theming" href="/mirror" description="Use Mirror to push data into your project." /%}
 
-{% quick-link title="Migrate from The Graph" icon="plugins" href="/migrate-from-the-graph" description="Learn how to migrate your subgraphs from The Graph and host them on Goldsky." /%}
-
+{% quick-link title="Select a database to push to" icon="theming" href="/mirror/sinks/choosing-the-right-sink" description="Choose the right sink for your project from our supported sinks." /%}
 {% /quick-links %}
 
 ---

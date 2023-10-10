@@ -37,7 +37,7 @@ Additional chains, including roll-ups, can be indexed on demand. [Contact us](ma
 
 ## Schema
 
-The schema for each of these datasets can be found [here](/references/indexed-on-chain-data-schemas).
+The schema for each of these datasets can be found [here](/mirror/references/indexed-on-chain-data-schemas).
 
 > Please ensure you have adequate storage before syncing complete datasets.
 

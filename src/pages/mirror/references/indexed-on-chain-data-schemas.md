@@ -5,7 +5,7 @@ description: Goldsky Mirror & Fusion data schemas for indexed on-chain data
 
 # Overview
 
-When you [create a new pipeline](/mirror/pipeline-configuration), you have an option to choose from indexed on-chain data. To better understand what the schema looks like for this data, see the details below.
+When you [create a new pipeline](/mirror/references/pipeline-configuration), you have an option to choose from indexed on-chain data. To better understand what the schema looks like for this data, see the details below.
 
 ## Decoded Logs
 

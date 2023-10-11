@@ -134,11 +134,12 @@ Examples:
 
 #### Pipeline event writes
 
-The number of records written into your sink. For example, for a PostgresQL sink, every row created, updated, or deleted, counts as a ‘write’. For a Kafka sink, every message counts as write.
+The number of records written by pipelines in your project. For example, for a PostgresQL sink, every row created, updated, or deleted, counts as a ‘write’. For a Kafka sink, every message counts as write.
 
 Example:
 
 1. If you have a pipeline that writes **20,000** a day for 10 days, then **20** a day after that for 10 days after that, you will be using **200,200** pipeline event writes.
+1. If you have two pipeline that have written 1 million events each during a month, then you will be charged $0 for the first million events, then $1 for the next million, as the free tier would be exhausted.
 
 ### Free Tier
 
@@ -210,9 +211,11 @@ You will be incurring usage for each hour that each pipeline in your project is 
 
 We want to give our customers a usable free tier. We started with the idea of giving our users 3 free concurrent subgraphs per month with up to 100,000 free subgraph entities per month. Similarly, we want to give our users 1 free pipeline per month with up to 1,000,000 free pipeline entities per month.
 
-## How we arrived at our Subgraph Entity Count billing table.
+## How we arrived at our Subgraph Entity Count billing table
 
 One tricky thing about our pricing model are the numbers for how we measure subgraph entities. This arises from the fact that we conceptualize our billing on a monthly basis but we bill on an hourly basis. Unfortunately, there aren’t a consistent number of hours in a month, some months have 672 hours (February) and others have 744 (August). We decided to assume that each month has 750 hours. This assumption is what underlines our Subgraph Entity Count billing table.
+
+In otherwords, the estimated monthly pricing you see is more expensive than you would actually pay given the same monthly usage.
 
 From this there are two important concepts for us to call out: **entity-months** and **entity-hours**. An entity-month is an entity that has been active for an entire month. An entity-hour is an entity that has been active for an hour.
 

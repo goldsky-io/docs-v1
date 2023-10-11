@@ -9,7 +9,7 @@ Goldsky allows you to pay for exactly what you use. There is also a generous fre
 
 ## Subgraphs
 
-We track usage based on two metrics - the amount of active subgraphs, and the amount of data stored in each subgraph.
+We track usage based on two metrics - the amount of active subgraphs, and the amount of data stored across all subgraphs in your project.
 
 #### Active Subgraphs
 
@@ -22,7 +22,7 @@ Examples:
 
 #### Subgraph entities stored
 
-The number of entities stored for a particular subgraph. This is tracked hourly as well. If you delete a subgraph, it no longer gets tracked. All subgraph entities in a project count towards the projects usage cumulatively.
+The number of entities stored across all the subgraphs in your project. This is tracked hourly as well. If you delete a subgraph, it no longer gets tracked. All subgraph entities in a project count towards the projects usage cumulatively.
 
 Examples:
 

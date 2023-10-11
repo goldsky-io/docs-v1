@@ -18,11 +18,10 @@ const navigation = [
     title: "Introduction",
     links: [
       { title: "Getting started", href: "/" },
-      { title: "Concepts", href: "/concepts" },
+      { title: "Pricing", href: "/pricing" },
       { title: "Migrate from The Graph", href: "/migrate-from-the-graph" },
       { title: "Teams and Projects", href: "/teams-and-projects" },
       { title: "Supported Chains", href: "/supported-chains" },
-      { title: "Pricing", href: "/pricing" },
     ],
   },
   // {
@@ -82,15 +81,15 @@ const navigation = [
         href: "/mirror/sinks",
         links: [
           { title: "PostgreSQL", href: "/mirror/sinks/postgresql" },
-          { title: "Kafka", href: "/mirror/sinks/kafka" },
+          { title: "ClickHouse", href: "/mirror/sinks/clickhouse" },
           { title: "Rockset", href: "/mirror/sinks/rockset" },
-          { title: "AWS S3", href: "/mirror/sinks/aws-s3" },
           {
             title: "Elasticsearch",
             href: "/mirror/sinks/elasticsearch",
           },
+          { title: "Kafka", href: "/mirror/sinks/kafka" },
+          { title: "AWS S3", href: "/mirror/sinks/aws-s3" },
           { title: "Timescale", href: "/mirror/sinks/timescale" },
-          { title: "ClickHouse", href: "/mirror/sinks/clickhouse" },
         ],
       },
       {

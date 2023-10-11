@@ -27,8 +27,6 @@ For each subgraph, you can create a pipeline for each entity. Each entity will m
 - [Cryptopunks](/mirror/supported-tables/cryptopunks)
 - [Nouns](/mirror/supported-tables/nouns)
 
-## Custom subgraphs (coming soon)
+## Subgraphs from your project
 
-{% partial file="closed-beta.md" /%}
-
-Use any of your own subgraphs as a pipeline source. More details to come when we launch this feature.
+Use any of your own subgraphs as a pipeline source. Use `goldsky pipeline create <pipeline-name>` and select `Project Subgraph`, and push subgraph data into any of our supported sinks.

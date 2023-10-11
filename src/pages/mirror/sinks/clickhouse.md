@@ -9,11 +9,50 @@ Mirror can work with any ClickHouse setup, but we have several strong defaults. 
 
 [ReplacingMergeTree](https://clickhouse.com/docs/en/engines/table-engines/mergetree-family/replacingmergetree) engine is used for all sink tables by default. If you don't want to use a ReplacingMergeTree, you can pre-create the table with any data engine you'd like. If you don't want to use a ReplacingMergeTree, you can disable `appendOnlyMode`.
 
+## Pipeline configuration
+
+```json
+{
+  "sources": [],
+  "transforms": [],
+  "sinks": [
+    {
+      "description": "Type.Optional(Type.String())",
+      "type": "clickHouse",
+      "sourceStreamName": "Type.String()",
+      "secretName": "Type.String()",
+      "table": "Type.String()",
+      "batchSize": "Type.Optional(Type.Integer())",
+      "flushInterval": "Type.Optional(Type.String())",
+      "appendOnlyMode": "Type.Optional(Type.Boolean())",
+      "versionColumnName": "Type.Optional(Type.String())"
+    }
+  ]
+}
+```
+
+## Secrets
+
+{% callout type="warning" title="Use HTTP" %}
+Mirror writes to ClickHouse via the `http` interface, rather than the `tcp` interface.
+{% /callout %}
+
+```shell
+
+goldsky secret create A_CLICKHOUSE_SECRET --type clickHouse --value '{
+  "url": "http://localhost:8123",
+  "type": "clickHouse",
+  "username": "default",
+  "password": "qwerty123",
+  "databaseName": "myDatabase"
+}'
+```
+
 ## Data consistency with ReplacingMergeTrees
 
 With `ReplacingMergeTree` tables, we can write, overwrite, and flag rows with the same primary key for deletes without actually mutating. As a result, the actual raw data in the table may contain duplicates.
 
-ClickHouse allows you to clean up duplicates and deletes by running
+ClickHouse allows you to clean up duplicates and deletes from the table by running
 
 ```sql
 OPTIMIZE <tablename> FINAL;
@@ -54,38 +93,3 @@ When `appendOnlyMode` is `false`:
 - All updates and deletes are propagated as is.
 - No extra columns are added.
 - Primary key is used in the `PRIMARY KEY` clause.
-
-## Pipeline configuration
-
-```json
-{
-  "sources": [],
-  "transforms": [],
-  "sinks": [
-    {
-      "description": "Type.Optional(Type.String())",
-      "type": "clickHouse",
-      "sourceStreamName": "Type.String()",
-      "secretName": "Type.String()",
-      "table": "Type.String()",
-      "batchSize": "Type.Optional(Type.Integer())",
-      "flushInterval": "Type.Optional(Type.String())",
-      "appendOnlyMode": "Type.Optional(Type.Boolean())",
-      "versionColumnName": "Type.Optional(Type.String())"
-    }
-  ]
-}
-```
-
-## Secrets
-
-```shell
-
-goldsky secret create A_CLICKHOUSE_SECRET --type clickHouse --value '{
-  "url": "Type.String()",
-  "type": "clickHouse",
-  "username": "Type.String()",
-  "password": "Type.String()",
-  "databaseName": "Type.String()"
-}'
-```

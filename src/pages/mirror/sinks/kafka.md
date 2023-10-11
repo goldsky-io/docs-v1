@@ -3,7 +3,15 @@ title: Kafka
 description: Goldsky Mirror Kafka sinks
 ---
 
-{% partial file="closed-beta.md" /%}
+Kafka is a distributed streaming platform that is used to build real-time data pipelines and streaming applications. It is designed to be fast, scalable, and durable.
+
+You can use Kafka to deeply integrate into your existing data ecosystem. Goldsky supplies a message format that allows you to handle blockchain forks and reorganizations with your downstream data pipelines.
+
+Kafka has a rich ecosystem of SDKs and connectors you can make use of to do advanced data processing.
+
+{% callout type="warning" title="Less Magic Here" %}
+The Kafka integration is less end to end - while Goldsky will handle a ton of the topic partitioning balancing and other details, using Kafka is a bit more involved compared to getting data directly mirrored into a database.
+{% /callout %}
 
 ## Pipeline configuration
 

@@ -3,11 +3,7 @@ title: Subgraphs
 description: Goldsky Mirror subgraph sources
 ---
 
-{% partial file="closed-beta.md" /%}
-
-One of many available pipeline sources is subgraphs. We provide a curated list of community subgraphs that let you get up and running in no time.
-
-Alternatively, contact us to enable custom subgraphs to use your own subgraphs as pipeline sources.
+You can use subgraphs as a pipeline source, allowing you to combined the flexibility of subgraph indexing with the expressiveness of SQL datastores.
 
 ## Community subgraphs
 

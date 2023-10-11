@@ -3,7 +3,18 @@ title: Subgraphs
 description: Goldsky Mirror subgraph sources
 ---
 
-You can use subgraphs as a pipeline source, allowing you to combined the flexibility of subgraph indexing with the expressiveness of SQL datastores.
+You can use subgraphs as a pipeline source, allowing you to combined the flexibility of subgraph indexing with the expressiveness of the database of your choice.
+
+This enables a lot of powerful use-cases:
+
+- Less SQL - re-use all your existing subgraph entities.
+- Flexible aggregations that weren't possible with just GraphQL.
+- Analytics on protocols through Rockset, Clickhouse, and more.
+- Plug into BI tools, train AI,
+
+## Subgraphs from your project
+
+Use any of your own subgraphs as a pipeline source. Use `goldsky pipeline create <pipeline-name>` and select `Project Subgraph`, and push subgraph data into any of our supported sinks.
 
 ## Community subgraphs
 
@@ -22,7 +33,3 @@ For each subgraph, you can create a pipeline for each entity. Each entity will m
 - [OpenSea Seaport](/mirror/supported-tables/opensea-seaport)
 - [Cryptopunks](/mirror/supported-tables/cryptopunks)
 - [Nouns](/mirror/supported-tables/nouns)
-
-## Subgraphs from your project
-
-Use any of your own subgraphs as a pipeline source. Use `goldsky pipeline create <pipeline-name>` and select `Project Subgraph`, and push subgraph data into any of our supported sinks.

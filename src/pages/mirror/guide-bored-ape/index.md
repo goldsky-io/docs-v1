@@ -3,17 +3,23 @@ title: "Guide: Bored Ape Contract -> NeonDB"
 description: Get started with Mirror pipelines.
 ---
 
-The `goldsky` CLI provides a guided experience to create pipelines. Based on the input you provide, the CLI generates a pipeline definition for you behind the scenes.
+The `goldsky` CLI provides wizard to create pipelines. Based on the input you provide, the CLI generates a pipeline definition for you behind the scenes.
 
-To create a new pipeline, use the following command:
+To create a new pipeline with the wizard, use the following command:
 
 ```shell
 goldsky pipeline create <your-pipeline-name>
 ```
 
-## Example: Bored Ape Contract Events to NeonDB
+## Wizard Example: Bored Ape Contract Events to NeonDB
 
 In this example, we will create a pipeline that indexes Bored Ape Yacht Club contract events to a NeonDB (Postgres) database. This will include all transfers and other auxillary events associated to that address, with our ethereum decoded dataset as the source.
+
+Initiate the wizard:
+
+```shell
+goldsky pipeline create bored-ape-transfers
+```
 
 1. **Select a Data Source**: Choose _Indexed on-chain data_.
 1. **Choose Data Type**: Opt for _Ethereum - Decoded Logs_.
@@ -30,7 +36,13 @@ In this example, we will create a pipeline that indexes Bored Ape Yacht Club con
 Upon successful completion of these steps, an active pipeline is created. Data should start appearing in your database shortly. Monitor the table that is displayed. "RUNNING" status should appear after a minute or two. To monitor progress at any time, use:
 
 ```shell
-goldsky pipeline monitor <your-pipeline-name>
+goldsky pipeline monitor bored-ape-transfers
+```
+
+You can get the generated pipeline definition using:
+
+```shell
+goldsky pipeline get-definition bored-ape-transfers
 ```
 
 For a full list of all available commands, use:

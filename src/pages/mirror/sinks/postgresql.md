@@ -14,22 +14,27 @@ The PostgreSQL also supports Timescale hypertables, if the hypertable is already
 ## Pipeline configuration
 
 ```json
-{
-  "sources": [],
-  "transforms": [],
-  "sinks": [
-    {
-      "type": "postgres",
-      "description": "Type.Optional(Type.String())",
-      "sourceStreamName": "Type.String()",
-      "schema": "Type.String()",
-      "table": "Type.String()",
-      "secretName": "Type.String()",
-      "batchSize": 1000,
-      "flushInterval": "10000"
-    }
-  ]
-}
+sinks:
+  - type: postgres
+    # The source stream name coming from either a source or transform
+    sourceStreamName: Type.String()
+
+    # The destination schema the table is in
+    schema: Type.String()
+
+    # The destination table. It will created if it doesn't exist.
+    table: Type.String()
+
+    # The database secret name.
+    secretName: Type.String()
+
+    # The maximum amount of events that will be written
+    # within one request
+    batchSize: 1000
+
+    # The maximum time (in milliseconds) the pipeline will batch events
+    # for before sending.
+    flushInterval: 10000
 ```
 
 ## Secrets

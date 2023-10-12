@@ -8,10 +8,13 @@ Goldsky is foundational data infrastructure for applications that need real-time
 
 Goldsky, in a nutshell, provides:
 
-**Subgraphs**: Enterprise-grade Subgraph indexing with add-ons.  
-**Mirror**: Reorg-aware and strongly consistent ETL pipelines that push data to your infrastructure directly.
+**Subgraphs**:  
+Enterprise-grade Subgraph indexing with extra capabilities like webhooks and more.
 
-Subgraphs and mirror can be used together or separately. Mirror can use Goldsky hosted subgraphs as a data source, allowing you to get your data into our supported sinks.
+**Mirror**:  
+A data pipeline platform that allows you to get real-time, re-org aware tables in your database or message with a single yaml config.
+
+Subgraphs and Mirror can be used together or separately. Mirror can use Goldsky-hosted subgraphs as a data source, allowing you to get your data into any of our sinks without any data lag.
 
 {% .lead %}
 

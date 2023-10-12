@@ -34,7 +34,7 @@ const navigation = [
   {
     title: "Subgraphs",
     links: [
-      { title: "Overview", href: "/subgraphs" },
+      { title: "Subgraphs Overview", href: "/subgraphs" },
       {
         title: "Shared subgraphs",
         href: "/subgraphs/shared-subgraphs",
@@ -55,7 +55,7 @@ const navigation = [
     title: "Mirror",
     links: [
       {
-        title: "What are mirror pipelines?",
+        title: "Mirror Overview",
         href: "/mirror/what-are-mirror-pipelines",
       },
       {

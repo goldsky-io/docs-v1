@@ -19,8 +19,8 @@ The PostgreSQL also supports Timescale hypertables, if the hypertable is already
   "transforms": [],
   "sinks": [
     {
-      "description": "Type.Optional(Type.String())",
       "type": "postgres",
+      "description": "Type.Optional(Type.String())",
       "sourceStreamName": "Type.String()",
       "schema": "Type.String()",
       "table": "Type.String()",
@@ -56,33 +56,33 @@ This definition gets real-time edge stream of decoded logs straight into a postg
 
 ```yaml
 sources:
--  name: ethereum.decoded_logs
-  version: 1.0.0
-  type: dataset
-  startAt: latest
+  - name: ethereum.decoded_logs
+    version: 1.0.0
+    type: dataset
+    startAt: latest
 
 transforms:
--  sql: |
-    SELECT
-        id,
-        address,
-        event_signature,
-        event_params,
-        raw_log.block_number as block_number,
-        raw_log.block_hash as block_hash,
-        raw_log.transaction_hash as transaction_hash
-    FROM
-        ethereum.decoded_logs
-  name: logs
-  type: sql
-  primaryKey: id
+  - sql: |
+      SELECT
+          id,
+          address,
+          event_signature,
+          event_params,
+          raw_log.block_number as block_number,
+          raw_log.block_hash as block_hash,
+          raw_log.transaction_hash as transaction_hash
+      FROM
+          ethereum.decoded_logs
+    name: logs
+    type: sql
+    primaryKey: id
 
 sinks:
--  type: postgres
-  table: eth_logs
-  schema: goldsky
-  secretName: A_POSTGRESQL_SECRET
-  sourceStreamName: logs
+  - type: postgres
+    table: eth_logs
+    schema: goldsky
+    secretName: A_POSTGRESQL_SECRET
+    sourceStreamName: logs
 ```
 
 ## Tips for backfilling large datasets into PostgreSQL

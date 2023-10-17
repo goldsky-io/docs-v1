@@ -1,11 +1,11 @@
 ---
-title: What are Mirror pipelines?
+title: "Mirror: Real-time data pipelines"
 description: Learn what Mirror pipelines are and get started with one config file.
 ---
 
-Mirror is a serverless data-pipeline platform that allows you to get real-time data into your database with one yaml definition file.
+Mirror is a serverless data pipeline platform that allows you to get real-time data into your database with one yaml definition file.
 
-Mirror allows you to keep blockchain data where your app is. This offers teams unlimited access without thinking about API rate limits or latency. You get the data **pushed** to your datastore or queue, like a representation of blockchain you can query with your other data.
+Data is **pushed** to your datastore or queue, like a representation of blockchain you can query with your other data, with no external rate limits.
 
 A Mirror pipeline instructs Goldsky where to take data from (**sources**), how to _optionally_ process that data (**transforms**), and where to persist the results (**sinks**).
 

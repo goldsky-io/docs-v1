@@ -1,5 +1,5 @@
 ---
-title: Deploying Subgraphs and Tagging
+title: Deploy a Subgraph
 description: Step by step instructions to the most common ways to deploy your subgraphs
 ---
 
@@ -58,11 +58,12 @@ To deploy this subgraph to Goldsky, make sure you're logged in with your API tok
 cd poap-subgraph
 yarn build
 goldsky subgraph deploy poap-subgraph/1.0.0 --path .
+goldsky subgraph tag create poap-subgraph/1.0.0 --tag prod
 ```
 
-You can give your subgraph any name and version that you want. Versioning is useful for when you make updates to your subgraph and you want the GraphQL endpoint to remain consistent. We'll show you how to manage that using [Tags](#tags) at the end of this page.
+You can give your subgraph any name and version that you want. Versioning is useful for when you make updates to your subgraph and you want the GraphQL endpoint to remain consistent. We'll show you how to manage that using [Tags](/subgraphs/tags) at the end of this page.
 
-# From Source
+# From Source Code
 
 If you've developed your own subgraph, you can deploy it from your system. It's a similar process to deploying a subgraph built from the contract address. In our example we'll be using the open source [POAP subgraph](https://github.com/poap-xyz/poap-subgraph).
 
@@ -97,25 +98,3 @@ For a more detailed description of how to do this you can follow our [guide](/mi
 # Instant Subgraph Configuration
 
 For a detailed guide on using our Instant Subgraph Configurations, check out [this guide](/subgraphs/instant-subgraphs).
-
-# Tags
-
-We mentioned tags earlier, they're used to maintain a consistent GraphQL endpoint. By default, the Goldsky GraphQL endpoints are named after the subgraph name and version, so if you update your subgraph to a new version, you'll need to update your front end to point to the new GraphQL endpoint. Using tags, you can manage your versions and seamlessly upgrade your subgraph version without having the URL change.
-
-In this example, we'll assume you have already deployed a subgraph with the name and version `poap-subgraph/1.0.0`. We'll show you how to create a tag and how to move it to another subgraph version.
-
-First, create a tag using the Goldsky CLI and associate it with your subgraph.
-
-```shell
-goldsky subgraph tag create poap-subgraph/1.0.0 --tag prod
-```
-
-We've now created a new tag called `prod`. Now our GraphQL endpoint will use the word `prod` instead of the version number. You should see the new GraphQL endpoint listed in your terminal after running the command.
-
-Let's say you've upgraded your `poap-subgraph` to verison `2.0.0` and want to start querying it with your `prod` GraphQL endpoint. It's as simple as creating the tag again on the new version.
-
-```shell
-goldsky subgraph tag create poap-subgraph/2.0.0 --tag prod
-```
-
-Like before, you should see the GraphQL endpoint after running this command, and it should be the same as before. Now your queries will be routed to the `2.0.0` version of the subgraph seamlessly

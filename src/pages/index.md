@@ -12,7 +12,7 @@ Goldsky, in a nutshell, provides:
 Enterprise-grade Subgraph indexing with extra capabilities like webhooks and more.
 
 **Mirror**:  
-A data pipeline platform that allows you to get real-time, re-org aware tables in your database or message with a single yaml config.
+A data pipeline platform that allows you to get real-time, re-org aware tables in your database or message queues with a single yaml config.
 
 Subgraphs and Mirror can be used together or separately. Mirror can use Goldsky-hosted subgraphs as a data source, allowing you to get your data into any of our sinks without any data lag.
 
@@ -30,7 +30,7 @@ TODO: Determine which icons to use
 
 {% quick-link title="Sync data" icon="theming" href="/mirror" description="Use Mirror to push data into your project." /%}
 
-{% quick-link title="Select a database to push to" icon="theming" href="/mirror/sinks/choosing-the-right-sink" description="Choose the right sink for your project from our supported sinks." /%}
+{% quick-link title="Select a database to push to" icon="theming" href="/mirror/choosing-the-right-sink" description="Choose the right sink for your project from our supported sinks." /%}
 {% /quick-links %}
 
 ---

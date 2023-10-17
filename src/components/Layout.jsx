@@ -44,8 +44,12 @@ const navigation = [
         href: "/subgraphs/dedicated-subgraphs",
       },
       {
-        title: "Deploying Subgraphs and Tagging",
+        title: "Deploy a Subgraph",
         href: "/subgraphs/deploying-subgraphs",
+      },
+      {
+        title: "Managing API endpoints with Tags",
+        href: "/subgraphs/tags",
       },
       { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
       { title: "Webhooks", href: "/subgraphs/webhooks" },
@@ -62,7 +66,7 @@ const navigation = [
         title: "Guide: Export Bored Ape Contract Events",
         href: "/mirror/guide-bored-ape",
       },
-      { title: "Creating a pipeline", href: "/mirror/creating-a-pipeline" },
+      { title: "Create a pipeline", href: "/mirror/creating-a-pipeline" },
       {
         title: "Choosing the right sink",
         href: "/mirror/choosing-the-right-sink",

@@ -1,52 +1,86 @@
 ---
-title: Instant Subgraphs
-description: No need to create and maintain your own subgraph anymore. With Instant Subgraphs, we create a subgraph for you.
+title: Create no-code subgraphs
+description: Generate a subgraph instantly.
 ---
 
-Skip the manual creation and maintenance of subgraphs. Use your contract's ABI and a simple configuration file to let Goldsky start indexing for you.
+Simplify your indexing without writing any subgraph code.
 
-Instant Subgraphs works with both Shared and Dedicated subgraph indexing, and will default to whatever your project is set on.
+## What you need
 
-Below is an example of a basic configuration file:
+You only need two things to get started:
+
+1. The contract address you're interested in indexing.
+2. The ABI (Application Binary Interface) of the contract.
+
+## Getting the ABI
+
+If the contract you’re interested in indexing is a contract you deployed, then you’ll have the contract address and ABI handy. Otherwise, you can use a mix of public explorer tools to find this information. For example, if we’re interested in indexing the [friend.tech](http://friend.tech) contract…
+
+1. Find the contract address from [Dappradar](https://dappradar.com/)
+2. Click through to the [block explorer](https://basescan.org/address/0xcf205808ed36593aa40a44f10c7f7c2f67d4a4d4) where the ABI can be found
+
+Save the ABI to your local file system and make a note of the contract address. Also make a note of the block number the contract was deployed at, you’ll need this at a later step.
+
+## Creating the Instant Subgraph configuration
+
+The next step is to create the Instant Subgraph configuration file. This file consists of five key sections:
+
+1. Config version number
+2. Config name
+3. ABIs
+4. Chains
+5. Contract instances
+
+### Version Number
+
+As of October 2023, our Instant Subgraph configuration system is on version 1. This may change in the future. This is not the version number of your subgraph, but of Goldsky's configuration file format.
+
+### Config Name
+
+This is a name of your choice that helps you understand what this config is for. It is only used for internal debugging.
+
+For this guide, we'll use `friendtech`.
+
+### ABIs, Chains, and Contract Instances
+
+These three sections are interconnected.
+
+1. Name your ABI and enter the path to the ABI file you saved earlier (relative to where this config file is located). In this case, `ftshares` and `abi.json`.
+2. Enter the chain - in this case, `Base`.
+3. Write out the contract instance, referencing the ABI you named earlier, the address it's deployed at, the chain it's on, and the start block.
 
 ```json
 {
-  "version": "1",
-  "name": "TokenDeployed",
-  "abis": {
-    "TokenRegistry": {
-      "path": "./abis/token-registry.json"
+  "version": "1", /* As of Oct 2023, this is always "1" */
+  "name": "friendtech", /* internal name for reference */
+  "abis": /* list of ABIs */
+    "ftshares": { /* ABI name */
+      "path": "./abi.json" /* path to ABI file */
     }
   },
-  "chains": ["mainnet"],
-  "instances": [
+  "chains": ["base"], /* list of chains */
+  "instances": [ /* object for each subgraph instance */
     {
-      "abi": "TokenRegistry",
-      "address": "0x0A6f564C5c9BeBD66F1595f1B51D1F3de6Ef3b79",
-      "startBlock": 13983724,
-      "chain": "mainnet"
+      "abi": "TokenRegistry", /* name of ABI defined above */
+      "address": "0xCF205808Ed36593aa40a44F10c7f7C2F67d4A4d4",
+      "startBlock": 2430440,
+      "chain": "base"
     }
   ]
 }
 ```
 
-> For a complete reference of the various properties, please see the [Instant Subgraphs references docs](/references/instant-subgraphs-config)
+This configuration can handle multiple contracts with distinct ABIs, the same contract across multiple chains, or multiple contracts with distinct ABIs on multiple chains.
 
-Execute the following command to generate a subgraph, deploy it, and let Goldsky start indexing:
+**For a complete reference of the various properties, please see the [Instant Subgraphs references docs](https://docs.goldsky.com/references/instant-subgraphs-config)**
 
-```
-goldsky subgraph deploy <subgraphName>/<subgraphVersion> --from-abi <path-to-above-config-file>
-```
+## Deploying the Subgraph
 
-In your terminal, you will see output similar to the following:
+With your configuration file ready, it's time to deploy the subgraph.
 
-```
-❯❯❯ goldsky subgraph deploy goldsky/v1.0.0 --from-abi ./goldsky_config.json
-Deploying Subgraph:
-✔ Generating subgraph(s) (this may take several minutes)
-✔ Deploying goldsky-mainnet/v1.0.0 to Goldsky
+1. Open the CLI and log in to your Goldsky account with the command: `goldsky login`.
+2. Deploy the subgraph using the command: `goldsky subgraph deploy name/version --from-abi <path-to-config-file>`, then pass in the path to the config file you created. Note - do NOT pass in the ABI itself, but rather the config file defined above.
 
-Deployed subgraph API: https://api.goldsky.com/api/public/project_cl6whoglq00050iyl9jnqc0o3/subgraphs/goldsky-mainnet/v1.0.0/gn
-```
+Goldsky will generate all the necessary subgraph code, deploy it, and return an endpoint that you can start querying.
 
-That's it! You can now query your subgraph at the provided link(s) or watch the subgraph indexing progress and other information at [app.goldsky.com/dashboard/subgraphs](https://app.goldsky.com/dashboard/subgraphs).
+Clicking the endpoint link takes you to a web client where you can browse the documentation and draft queries to integrate into your app.

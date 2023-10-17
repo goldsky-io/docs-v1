@@ -36,7 +36,7 @@ const navigation = [
     links: [
       { title: "Overview", href: "/subgraphs" },
       {
-        title: "Deploy a Subgraph",
+        title: "Deploy a subgraph",
         href: "/subgraphs/deploying-subgraphs",
       },
       {
@@ -47,8 +47,11 @@ const navigation = [
         title: "Managing API endpoints with Tags",
         href: "/subgraphs/tags",
       },
-      { title: "Instant Subgraphs", href: "/subgraphs/instant-subgraphs" },
-      { title: "Webhooks", href: "/subgraphs/webhooks" },
+      {
+        title: "Create no-code subgraphs",
+        href: "/subgraphs/instant-subgraphs",
+      },
+      { title: "Send subgraph-powered webhooks", href: "/subgraphs/webhooks" },
     ],
   },
   {
@@ -59,7 +62,7 @@ const navigation = [
         href: "/mirror/what-are-mirror-pipelines",
       },
       {
-        title: "Guide: Export Bored Ape Contract Events",
+        title: "Guide: Export blockchain events to a database",
         href: "/mirror/guide-bored-ape",
       },
       { title: "Create a pipeline", href: "/mirror/creating-a-pipeline" },

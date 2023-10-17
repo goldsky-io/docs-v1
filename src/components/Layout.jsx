@@ -34,18 +34,14 @@ const navigation = [
   {
     title: "Subgraphs",
     links: [
-      { title: "Subgraphs Overview", href: "/subgraphs" },
-      {
-        title: "Shared subgraphs",
-        href: "/subgraphs/shared-subgraphs",
-      },
-      {
-        title: "Dedicated subgraphs",
-        href: "/subgraphs/dedicated-subgraphs",
-      },
+      { title: "Overview", href: "/subgraphs" },
       {
         title: "Deploy a Subgraph",
         href: "/subgraphs/deploying-subgraphs",
+      },
+      {
+        title: "Serverless vs dedicated",
+        href: "/subgraphs/serverless-vs-dedicated",
       },
       {
         title: "Managing API endpoints with Tags",
@@ -59,7 +55,7 @@ const navigation = [
     title: "Mirror",
     links: [
       {
-        title: "Mirror Overview",
+        title: "Overview",
         href: "/mirror/what-are-mirror-pipelines",
       },
       {

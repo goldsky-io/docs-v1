@@ -9,7 +9,7 @@ Receive real-time HTTP POST requests to your backends whenever a subgraph indexe
 
 Every project has webhooks enabled by default for free.
 
-# Speedrun: X2Y2 Trades Webhook
+## Speedrun: X2Y2 Trades Webhook
 
 Let's speed-run a simple example of a webhook. We'll create a webhook that sends a POST request to a URL of your choice whenever a trade occurs on the X2Y2 exchange.
 
@@ -48,9 +48,9 @@ Let's speed-run a simple example of a webhook. We'll create a webhook that sends
 4. Inspect the webhook.site url again - you should see events start to stream in.
    ![A screenshot of 4 requests with one highlighted to show request details](/images/docs/mirror/webhook-example.png)
 
-# Reference
+## Reference
 
-## Create a new webhook
+### Create a new webhook
 
 To create a new webhook for a subgraph entity:
 
@@ -58,7 +58,7 @@ To create a new webhook for a subgraph entity:
 goldsky subgraph webhook create my-subgraph/1.0.0 --name "" --url "" --entity ""
 ```
 
-## List webhooks
+### List webhooks
 
 To see a list of already configured webhooks:
 
@@ -74,7 +74,7 @@ If you no longer need a webhook, you can delete it with the following command:
 goldsky subgraph webhook delete --name ""
 ```
 
-## Webhook Payload
+### Webhook Payload
 
 The webhook payload is a JSON object with the following fields:
 

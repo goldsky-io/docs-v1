@@ -52,6 +52,8 @@ const nextConfig = {
       ["/indexing/instant-subgraphs", "/subgraphs/instant-subgraphs"],
       ["/indexing/shared-subgraph-indexing", "/subgraphs/shared-subgraphs"],
       ["/indexing/webhooks", "/subgraphs/webhooks"],
+      ["/subgraphs/shared-subgraphs", "/subgraphs/serverless-vs-dedicated"],
+      ["/subgraphs/dedicated-subgraphs", "/subgraphs/serverless-vs-dedicated"],
     ].map(([source, destination]) => ({
       source,
       destination,

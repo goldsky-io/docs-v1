@@ -3,12 +3,6 @@ title: Migrate from The Graph
 description: Migrate your subgraphs from The Graph and host them on Goldsky
 ---
 
-{% callout type="warning" title="The Graph Hosted Service Sunsetting" %}
-The Graph is sunsetting the Hosted Service in favor of their decentralized network called The Graph Network.
-
-This applies to chains once they are supported on The Graph Network. As of October 2022, this is Ethereum and Gnosis Chain.
-{% /callout %}
-
 Goldsky provides a one-step migration for your subgraphs on The Graph's hosted service or decentralized network.
 
 Migrate today to ensure continued service availability for your business and set yourself up to leverage [Fusion](/fusion) and [Mirror](/mirror) to integrate blockchain data into your systems.

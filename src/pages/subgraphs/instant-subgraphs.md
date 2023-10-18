@@ -53,7 +53,7 @@ These three sections are interconnected.
 {
   "version": "1", /* As of Oct 2023, this is always "1" */
   "name": "friendtech", /* internal name for reference */
-  "abis": /* list of ABIs */
+  "abis": { /* list of ABIs */
     "ftshares": { /* ABI name */
       "path": "./abi.json" /* path to ABI file */
     }
@@ -61,7 +61,7 @@ These three sections are interconnected.
   "chains": ["base"], /* list of chains */
   "instances": [ /* object for each subgraph instance */
     {
-      "abi": "TokenRegistry", /* name of ABI defined above */
+      "abi": "ftshares", /* name of ABI defined above */
       "address": "0xCF205808Ed36593aa40a44F10c7f7C2F67d4A4d4",
       "startBlock": 2430440,
       "chain": "base"

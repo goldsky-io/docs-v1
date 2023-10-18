@@ -161,9 +161,9 @@ sinks:
 '
 ```
 
-### Puling f
+### Syncing a dataset into a postgres database
 
-This pipeline is named `decoded-logs`. It pulls data from a curated goldsky dataset, without performing any transformations, and stores the result into a PostgreSQL sink.
+This pipeline is named `decoded-logs`. It pulls data from a curated goldsky dataset, without performing any transformations, and stores the result into a PostgreSQL sink, in a table called `eth_logs` in the `goldsky` schema.
 
 ```yaml
 sources:
@@ -192,7 +192,7 @@ sinks:
   - type: postgres
     table: eth_logs
     schema: goldsky
-    secretName: A_POSTGRESQL_SECRET
+    secretName: API_POSTGRES_CREDENTIALS
     sourceStreamName: logs
 '
 ```

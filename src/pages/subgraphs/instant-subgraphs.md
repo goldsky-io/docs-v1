@@ -17,7 +17,7 @@ You only need two things to get started:
 If the contract you’re interested in indexing is a contract you deployed, then you’ll have the contract address and ABI handy. Otherwise, you can use a mix of public explorer tools to find this information. For example, if we’re interested in indexing the [friend.tech](http://friend.tech) contract…
 
 1. Find the contract address from [Dappradar](https://dappradar.com/)
-2. Click through to the [block explorer](https://basescan.org/address/0xcf205808ed36593aa40a44f10c7f7c2f67d4a4d4) where the ABI can be found
+2. Click through to the [block explorer](https://basescan.org/address/0xcf205808ed36593aa40a44f10c7f7c2f67d4a4d4#code) where the ABI can be found under the `Contract ABI` section. You can also [click here](https://api.basescan.org/api?module=contract&action=getabi&address=0xcf205808ed36593aa40a44f10c7f7c2f67d4a4d4&format=raw) to download it.
 
 Save the ABI to your local file system and make a note of the contract address. Also make a note of the block number the contract was deployed at, you’ll need this at a later step.
 
@@ -51,17 +51,17 @@ These three sections are interconnected.
 
 ```json
 {
-  "version": "1", /* As of Oct 2023, this is always "1" */
-  "name": "friendtech", /* internal name for reference */
-  "abis": { /* list of ABIs */
-    "ftshares": { /* ABI name */
-      "path": "./abi.json" /* path to ABI file */
+  "version": "1",
+  "name": "friendtech",
+  "abis": {
+    "ftshares": {
+      "path": "./abi.json"
     }
   },
-  "chains": ["base"], /* list of chains */
-  "instances": [ /* object for each subgraph instance */
+  "chains": ["base"],
+  "instances": [
     {
-      "abi": "ftshares", /* name of ABI defined above */
+      "abi": "ftshares",
       "address": "0xCF205808Ed36593aa40a44F10c7f7C2F67d4A4d4",
       "startBlock": 2430440,
       "chain": "base"
@@ -69,6 +69,10 @@ These three sections are interconnected.
   ]
 }
 ```
+
+{% callout type="note" title="FYI" %}
+As of Oct 2023, `version` is always `1`. The abi name in `instances` should match a key in `abis`, in this example, `ftshares`. It is possible to have more than one `chains` and more than one ABI. Multiple chains will result in multiple subgraphs. The file `abi.json` in this example should contain the friendtech ABI [downloaded from here](https://api.basescan.org/api?module=contract&action=getabi&address=0xcf205808ed36593aa40a44f10c7f7c2f67d4a4d4&format=raw).
+{% /callout %}
 
 This configuration can handle multiple contracts with distinct ABIs, the same contract across multiple chains, or multiple contracts with distinct ABIs on multiple chains.
 

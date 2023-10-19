@@ -52,6 +52,10 @@ const navigation = [
         href: "/subgraphs/instant-subgraphs",
       },
       { title: "Send subgraph-powered webhooks", href: "/subgraphs/webhooks" },
+      {
+        title: "Sync subgraphs to your datastore",
+        href: "/subgraphs/subgraphs-with-mirror",
+      },
     ],
   },
   {

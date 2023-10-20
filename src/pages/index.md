@@ -4,12 +4,10 @@ pageTitle: Goldsky - Getting Started
 description: Index subgraphs and transform on-chain data. Query with GraphQL, SQL, and more.
 ---
 
-Goldsky is foundational data infrastructure for applications that need real-time blockchain data, right in their own infrastructure.
-
-Goldsky, in a nutshell, provides:
+Goldsky provides foundational data infrastructure for applications that need real-time blockchain data, right in their own infrastructure.
 
 **Subgraphs**:  
-Enterprise-grade Subgraph indexing with extra capabilities like webhooks and more.
+Enterprise-grade webasm-powered indexing with full backwards compatibility with subgraphs. Use with add-ons like webhooks and more.
 
 **Mirror**:  
 A data pipeline platform that allows you to get real-time, re-org aware tables in your database or message queues with a single yaml config.

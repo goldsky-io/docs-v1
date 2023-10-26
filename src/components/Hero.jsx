@@ -14,7 +14,7 @@ const tabs = [
   {
     name: "Migrate from The Graph",
     isActive: true,
-    code: `npm i -g @goldskycom/cli
+    code: `curl -fsSL https://cli.goldsky.com/install | bash
 goldsky login
 goldsky subgraph deploy your-subgraph-name/your-version --from-url <your-subgraph-query-url>
 `,
@@ -22,7 +22,7 @@ goldsky subgraph deploy your-subgraph-name/your-version --from-url <your-subgrap
   {
     name: "Deploy your subgraph",
     isActive: false,
-    code: `npm i -g @goldskycom/cli
+    code: `curl -fsSL https://cli.goldsky.com/install | bash
 goldsky login
 cd <your-subgraph-directory>
 goldsky subgraph deploy my-subgraph/1.0.0`,
